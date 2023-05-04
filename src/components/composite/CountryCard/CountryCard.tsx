@@ -1,7 +1,7 @@
 import { GlobalContext } from "@/context";
 import Image from "next/image";
 import React, { useContext } from "react";
-import InformationSection from "./InformationSection";
+import InformationSection from "../CountryInformationSection";
 
 export default function CountryCard({ data }: { data: any }) {
   const { colorMode } = useContext(GlobalContext);

@@ -1,4 +1,4 @@
-import CountryCard from "@/components/atomic/CountryCard";
+import CountryCard from "@/components/composite/CountryCard";
 import React from "react";
 import { countries } from "./Data";
 export default function CountriesListSection() {
