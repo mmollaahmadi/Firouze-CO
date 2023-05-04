@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HomePage from "@/components/screen/Home";
+import Detail from "@/components/screen/Detail/Detail";
 import Header from "@/components/composite/Header";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <HomePage />
+      <Detail />
     </>
   );
 }
