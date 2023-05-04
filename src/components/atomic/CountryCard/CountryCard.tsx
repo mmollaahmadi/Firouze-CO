@@ -17,10 +17,12 @@ export default function CountryCard({ data }: { data: any }) {
       <Image
         src={data?.flags?.svg}
         alt={""}
-        width={30}
-        height={30}
-        className="w-full rounded-t-md"
+        width={200}
+        height={200}
+        className="w-full max-h-44 h-44 rounded-t-md"
+        style={{ objectFit: "cover" }}
       />
+
       <InformationSection data={data} />
     </div>
   );
