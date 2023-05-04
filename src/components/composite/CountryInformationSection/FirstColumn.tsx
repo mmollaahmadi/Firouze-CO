@@ -9,7 +9,7 @@ export default function FirstColumn({
   data: any;
 }) {
   return (
-    <div className="col-span-2 md:col-span-1">
+    <div className={`col-span-2 ${withDetail && 'md:col-span-1'}`}>
       {withDetail && (
         <InformationRow label="Native Name" value={data?.nativeName} />
       )}
