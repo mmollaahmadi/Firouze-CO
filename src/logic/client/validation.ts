@@ -12,11 +12,13 @@ export function sortCountries(countries: countryDataType[]) {
   }
 }
 
-export function filterByRegion(region: string) {
+export function filterByRegion(countries: countryDataType[], region: string) {
   try {
-    const { countries } = useContext(GlobalContext);
-
-    return countries.filter((country) => country.region === region);
+    if (region === "") {
+      return null;
+    } else {
+      return countries.filter((country) => country.region === region);
+    }
   } catch (error) {
     console.error(error);
   }

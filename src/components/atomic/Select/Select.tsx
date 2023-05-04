@@ -6,12 +6,14 @@ import { GlobalContext } from "@/context";
 
 export default function Select({
   options,
+  onValueChange,
 }: {
   options: { value: string; label: string }[];
+  onValueChange: (value: string) => void;
 }) {
   const { colorMode } = useContext(GlobalContext);
   return (
-    <SelectRadix.Root>
+    <SelectRadix.Root onValueChange={onValueChange}>
       <SelectRadix.Trigger
         className={`shadow-md rounded-md my-2 outline-none flex flex-row justify-between items-center min-w-[35%] w-full px-6 py-2 text-center focus:outline-none ring-0 text-sm \
         ${
@@ -48,7 +50,7 @@ export default function Select({
               <SelectRadix.Item
                 key={index}
                 value={option.value}
-                className="py-1 hover:cursor-pointer text-sm"
+                className="py-1 hover:cursor-pointer text-sm outline-none"
               >
                 <SelectRadix.ItemText>{option.label}</SelectRadix.ItemText>
                 <SelectRadix.ItemIndicator></SelectRadix.ItemIndicator>

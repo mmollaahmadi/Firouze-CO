@@ -11,10 +11,27 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps }: AppProps) {
   const [colorMode, setColorMode] = useState<colorModeType>("light");
   const [countries, setCountries] = useState<countryDataType[]>([]);
+  const [filteredCountries, setFilteredCountries] = useState<countryDataType[]>(
+    []
+  );
 
   const value = useMemo(
-    () => ({ colorMode, setColorMode, countries, setCountries }),
-    [colorMode, setColorMode, countries, setCountries]
+    () => ({
+      colorMode,
+      setColorMode,
+      countries,
+      setCountries,
+      filteredCountries,
+      setFilteredCountries,
+    }),
+    [
+      colorMode,
+      setColorMode,
+      countries,
+      setCountries,
+      filteredCountries,
+      setFilteredCountries,
+    ]
   );
   return (
     <GlobalContext.Provider value={value}>
