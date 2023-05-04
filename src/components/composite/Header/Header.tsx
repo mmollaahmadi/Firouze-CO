@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div
       className={`flex flex-row justify-between items-center shadow-md p-6 sm:py-4 sm:px-14 ${
-        colorMode === "light" ? "bg-VeryLightGray" : "bg-VeryDarkBlue"
+        colorMode === "light" ? "bg-White" : "bg-DarkBlue"
       }`}
     >
       <h2
