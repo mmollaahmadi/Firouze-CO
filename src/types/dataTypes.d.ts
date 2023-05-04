@@ -1,0 +1,1 @@
+type colorModeType = "light" | "dark";
