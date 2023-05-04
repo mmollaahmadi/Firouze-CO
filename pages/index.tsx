@@ -3,9 +3,12 @@ import HomePage from "@/components/screen/Home";
 import Header from "@/components/composite/Header";
 import { useContext } from "react";
 import { GlobalContext } from "@/context";
+import useCountries from "@/logic/client/useCountries";
 
 export default function Home() {
   const { colorMode } = useContext(GlobalContext);
+  useCountries();
+
   return (
     <>
       <Head>

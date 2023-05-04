@@ -5,10 +5,12 @@ export default function Button({
   label,
   icon,
   className,
+  onClick,
 }: {
   label: string;
   icon?: any;
   className?: string;
+  onClick: (event: any) => void;
 }) {
   const { colorMode } = useContext(GlobalContext);
   return (
@@ -19,6 +21,7 @@ export default function Button({
         ? "bg-White text-SuperDarkBlue"
         : "bg-DarkBlue text-White"
     }`}
+      onClick={onClick}
     >
       {icon ? <FontAwesomeIcon icon={icon} className="my-auto mx-2" /> : null}
       <p>{label}</p>

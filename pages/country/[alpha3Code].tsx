@@ -7,7 +7,7 @@ import { GlobalContext } from "@/context";
 
 export default function Home() {
   const router = useRouter();
-  const { cca3 } = router.query;
+  const { alpha3Code } = router.query;
   const { colorMode } = useContext(GlobalContext);
 
   return (
@@ -27,7 +27,7 @@ export default function Home() {
         }`}
       >
         <Header />
-        <Detail cca3={cca3} />
+        <Detail alpha3Code={alpha3Code} />
       </main>
     </>
   );

@@ -1,86 +1,60 @@
 type colorModeType = "light" | "dark";
 
-// type countryDataType = {
+type currencyType = {
+  code: string;
+  name: string;
+  symbol: string;
+};
 
-//         "name": string,
-//         "topLevelDomain": string[
-
-//         ],
-//         "alpha2Code": string,
-//         "alpha3Code": string,
-//         "callingCodes": string[
-
-//         ],
-//         "capital": string,
-//         "altSpellings": string[
-//         ],
-//         "subregion": string,
-//         "region": string,
-//         "population": number,
-//         "latlng": number[
-
-//         ],
-//         "demonym": string,
-//         "area": number,
-//         "timezones": string[
-
-//         ],
-//         "borders": string[
-
-//         ],
-//         "nativeName": string,
-//         "numericCode": string,
-//         "flags": {
-//           "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-//           "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
-//         },
-//         "currencies": [
-//           {
-//             "code": "AFN",
-//             "name": "Afghan afghani",
-//             "symbol": "؋"
-//           }
-//         ],
-//         "languages": [
-//           {
-//             "iso639_1": "ps",
-//             "iso639_2": "pus",
-//             "name": "Pashto",
-//             "nativeName": "پښتو"
-//           },
-//           {
-//             "iso639_1": "uz",
-//             "iso639_2": "uzb",
-//             "name": "Uzbek",
-//             "nativeName": "Oʻzbek"
-//           },
-//           {
-//             "iso639_1": "tk",
-//             "iso639_2": "tuk",
-//             "name": "Turkmen",
-//             "nativeName": "Türkmen"
-//           }
-//         ],
-//         "translations": {
-//           "br": "Afghanistan",
-//           "pt": "Afeganistão",
-//           "nl": "Afghanistan",
-//           "hr": "Afganistan",
-//           "fa": "افغانستان",
-//           "de": "Afghanistan",
-//           "es": "Afganistán",
-//           "fr": "Afghanistan",
-//           "ja": "アフガニスタン",
-//           "it": "Afghanistan",
-//           "hu": "Afganisztán"
-//         },
-//         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-//         "regionalBlocs": [
-//           {
-//             "acronym": "SAARC",
-//             "name": "South Asian Association for Regional Cooperation"
-//           }
-//         ],
-//         "cioc": string,
-//         "independent": boolean
-//       }
+type languageType = {
+  iso639_1: string;
+  iso639_2: string;
+  name: string;
+  nativeName: string;
+};
+type regionalBloc = {
+  acronym: string;
+  name: string;
+};
+type countryDataType = {
+  name: string;
+  topLevelDomain: string[];
+  alpha2Code: string;
+  alpha3Code: string;
+  callingCodes: string[];
+  capital: string;
+  altSpellings: string[];
+  subregion: string;
+  region: string;
+  population: number;
+  latlng: number[];
+  demonym: string;
+  area: number;
+  timezones: string[];
+  borders: string[];
+  nativeName: string;
+  numericCode: string;
+  flags: {
+    svg: string;
+    png: string;
+  };
+  currencies: currencyType[];
+  languages: languageType[];
+  translations: {
+    br: string;
+    pt: string;
+    nl: string;
+    hr: string;
+    fa: string;
+    de: string;
+    es: string;
+    fr: string;
+    ja: string;
+    it: string;
+    hu: string;
+  };
+  flag: string;
+  regionalBlocs: regionalBloc[];
+  cioc: string;
+  independent: boolean;
+};
