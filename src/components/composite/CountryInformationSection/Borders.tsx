@@ -9,11 +9,11 @@ export default function Borders({ borders }: { borders: string[] }) {
       <p className="text-sm font-[600] break-normal min-w-fit">
         Border Countries:
       </p>
-      <div className="grid grid-rows-1 grid-cols-4 gap-4 items-start justify-start my-2 md:my-[-4px]">
+      <div className="flex flex-row w-full flex-wrap items-start justify-start my-2 md:my-[-4px]">
         {borders?.map((border, index) => (
           <Button
             key={index}
-            className="w-full"
+            className="w-fit my-1 !mx-1"
             onClick={() => router.push(`/country/${border}`)}
             label={getCountryNameByAlpha3Code(border) ?? ""}
           />

@@ -89,7 +89,7 @@ export function getCountryNameByAlpha3Code(alpha3Code: string) {
   try {
     const { countries } = useContext(GlobalContext);
     return countries.filter((country) => country.alpha3Code === alpha3Code)[0]
-      ?.nativeName;
+      ?.name;
   } catch (error) {
     console.error(error);
   }

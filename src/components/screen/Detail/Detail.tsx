@@ -26,7 +26,7 @@ export default function Detail({ alpha3Code }: { alpha3Code: any }) {
     <div
       className={"flex flex-col mb-auto p-6 sm:py-4 sm:px-14 bg-transparent"}
     >
-     <ToolbarSection/>
+      <ToolbarSection />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:grid-rows-1">
         <div className="col-span-1 col-row-1 my-auto">
           <Image
