@@ -7,22 +7,22 @@ import { GlobalContext } from "@/context";
 export default function Select({
   options,
   onValueChange,
+  value,
 }: {
   options: { value: string; label: string }[];
-  onValueChange: (value: string) => void;
+  onValueChange: (value: any) => void;
+  value: string;
 }) {
   const { colorMode } = useContext(GlobalContext);
   const [key, setKey] = useState<number>(+new Date());
-  const [value, setValue] = useState<string>();
 
   function handleOnValueChange(value: string) {
     if (value === "") {
-      setValue(undefined);
+      onValueChange(undefined);
       setKey(+new Date());
     } else {
-      setValue(value);
+      onValueChange(value);
     }
-    onValueChange(value);
   }
   return (
     <SelectRadix.Root

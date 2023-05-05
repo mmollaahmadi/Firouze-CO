@@ -5,14 +5,14 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import React, { useContext, useState } from "react";
 export default function SearchInput({
   onValueChange,
+  value,
 }: {
   onValueChange: (value: string) => void;
+  value: string;
 }) {
   const { colorMode } = useContext(GlobalContext);
-  const [value, setValue] = useState<string>("");
   function handleChange(event: any) {
     let newValue = event.target.value;
-    setValue(newValue);
     onValueChange(newValue);
   }
   return (

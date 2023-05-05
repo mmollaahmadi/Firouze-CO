@@ -9,5 +9,9 @@ export const initialState = {
   setFilteredCountries: (filteredCountries: countryDataType[]) => {},
   searchedCountries: [] as countryDataType[],
   setSearchedCountries: (searchedCountries: countryDataType[]) => {},
+  filterValue: "",
+  setFilterValue: (key: any) => {},
+  searchValue: "",
+  setSearchValue: (key: string) => {},
 };
 export const GlobalContext = createContext(initialState);

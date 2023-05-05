@@ -17,6 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
   const [searchedCountries, setSearchedCountries] = useState<countryDataType[]>(
     []
   );
+  const [filterValue, setFilterValue] = useState<any>("");
+  const [searchValue, setSearchValue] = useState<string>("");
 
   const value = useMemo(
     () => ({
@@ -28,6 +30,10 @@ export default function App({ Component, pageProps }: AppProps) {
       setFilteredCountries,
       searchedCountries,
       setSearchedCountries,
+      filterValue,
+      setFilterValue,
+      searchValue,
+      setSearchValue,
     }),
     [
       colorMode,
@@ -38,6 +44,10 @@ export default function App({ Component, pageProps }: AppProps) {
       setFilteredCountries,
       searchedCountries,
       setSearchedCountries,
+      filterValue,
+      setFilterValue,
+      searchValue,
+      setSearchValue,
     ]
   );
   return (
