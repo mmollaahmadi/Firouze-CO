@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import backend from "@/data/backend";
 import { GlobalContext } from "@/context";
-import { sortCountries } from "./validation";
+import { sortCountries } from "./utils";
 
 export default function useCountries() {
   const [errorMessage, setErrorMessage] = useState("");

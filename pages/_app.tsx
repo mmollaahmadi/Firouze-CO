@@ -14,6 +14,9 @@ export default function App({ Component, pageProps }: AppProps) {
   const [filteredCountries, setFilteredCountries] = useState<countryDataType[]>(
     []
   );
+  const [searchedCountries, setSearchedCountries] = useState<countryDataType[]>(
+    []
+  );
 
   const value = useMemo(
     () => ({
@@ -23,6 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
       setCountries,
       filteredCountries,
       setFilteredCountries,
+      searchedCountries,
+      setSearchedCountries,
     }),
     [
       colorMode,
@@ -31,6 +36,8 @@ export default function App({ Component, pageProps }: AppProps) {
       setCountries,
       filteredCountries,
       setFilteredCountries,
+      searchedCountries,
+      setSearchedCountries,
     ]
   );
   return (

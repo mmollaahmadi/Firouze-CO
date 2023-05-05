@@ -2,9 +2,19 @@ import { GlobalContext } from "@/context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
-import React, { useContext } from "react";
-export default function SearchInput() {
+import React, { useContext, useState } from "react";
+export default function SearchInput({
+  onValueChange,
+}: {
+  onValueChange: (value: string) => void;
+}) {
   const { colorMode } = useContext(GlobalContext);
+  const [value, setValue] = useState<string>("");
+  function handleChange(event: any) {
+    let newValue = event.target.value;
+    setValue(newValue);
+    onValueChange(newValue);
+  }
   return (
     <div className="relative w-full flex items-center">
       <FontAwesomeIcon
@@ -24,7 +34,8 @@ export default function SearchInput() {
         style={{
           direction: "ltr",
         }}
-        defaultValue=""
+        value={value ?? ""}
+        onChange={handleChange}
       />
     </div>
   );

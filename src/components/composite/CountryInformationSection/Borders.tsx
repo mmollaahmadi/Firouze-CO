@@ -1,5 +1,5 @@
 import Button from "@/components/atomic/Button";
-import { getCountryNameByAlpha3Code } from "@/logic/client/validation";
+import { getCountryNameByAlpha3Code } from "@/logic/client/utils";
 import { useRouter } from "next/router";
 import React from "react";
 export default function Borders({ borders }: { borders: string[] }) {
