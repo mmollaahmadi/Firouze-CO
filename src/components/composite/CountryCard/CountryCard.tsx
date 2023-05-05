@@ -23,6 +23,7 @@ export default function CountryCard({ data }: { data: any }) {
         height={200}
         className="w-full max-h-44 h-44 rounded-t-md"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
 
       <InformationSection data={data} />

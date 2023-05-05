@@ -18,7 +18,10 @@ export default function CountryInformationSection({
         colorMode === "light" ? "text-SuperDarkBlue" : "text-White"
       }`}
     >
-      <CountryName name={data?.name} />
+      <CountryName
+        name={data?.name}
+        className={withDetail ? "md:text-xl" : ""}
+      />
       <FirstColumn data={data} withDetail={withDetail} />
       {withDetail && (
         <>

@@ -13,13 +13,10 @@ export default function ToolbarSection() {
   } = useContext(GlobalContext);
 
   async function setFilterValue(value: string) {
-    console.log("l1 ",searchedCountries.length)
     let filteredCountries = await filterByRegion(
       searchedCountries.length > 0 ? searchedCountries : countries,
       value
     );
-    console.log("l2 ",filteredCountries?.length)
-
     setFilteredCountries(filteredCountries ?? []);
   }
 
@@ -28,7 +25,6 @@ export default function ToolbarSection() {
       filteredCountries.length > 0 ? filteredCountries : countries,
       value
     );
-    console.log("search ", searchedCountries);
     setSearchedCountries(searchedCountries ?? []);
   }
 
@@ -41,7 +37,6 @@ export default function ToolbarSection() {
         <Select
           onValueChange={(value) => setFilterValue(value)}
           options={[
-            { value: "", label: "No Filter" },
             { value: "Africa", label: "Africa" },
             { value: "Americas", label: "America" },
             { value: "Asia", label: "Asia" },

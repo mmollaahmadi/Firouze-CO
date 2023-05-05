@@ -19,13 +19,13 @@ export default function SearchInput({
     <div className="relative w-full flex items-center">
       <FontAwesomeIcon
         icon={faMagnifyingGlass}
-        className={`absolute left-0 rounded-md ml-4 items-center \
+        className={`absolute left-0 rounded-md ml-7 items-center \
         ${colorMode === "light" ? "text-SuperDarkBlue" : "text-White"}`}
       />
       <input
         aria-label={"search"}
         placeholder={"Search for a country ..."}
-        className={`shadow-md rounded-md my-2 outline-none min-w-[35%] w-full px-6 py-2 text-center text-sm \
+        className={`shadow-md rounded-md my-2 outline-none min-w-[35%] w-full pr-6 pl-16 py-2 text-left text-sm placeholder:text-opacity-50 \
         ${
           colorMode === "light"
             ? "bg-White text-SuperDarkBlue placeholder:text-SuperDarkBlue"

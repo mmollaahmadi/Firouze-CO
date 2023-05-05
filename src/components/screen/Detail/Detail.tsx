@@ -18,8 +18,8 @@ export default function Detail({ alpha3Code }: { alpha3Code: any }) {
   const [country, setCountry] = useState<countryDataType | null>(null);
   useEffect(() => {
     function updateCountryData() {
-      let c = findCountryData(alpha3Code);
-      setCountry(c);
+      let foundedCountry = findCountryData(alpha3Code);
+      setCountry(foundedCountry);
     }
     updateCountryData();
   }, [alpha3Code]);
