@@ -11,7 +11,7 @@ export default function Select({
 }: {
   options: { value: string; label: string }[];
   onValueChange: (value: any) => void;
-  value: string;
+  value: any;
 }) {
   const { colorMode } = useContext(GlobalContext);
   const [key, setKey] = useState<number>(+new Date());

@@ -19,7 +19,8 @@ export default function useCountries() {
         setCountries(result);
       } else {
         setLoading(false);
-        setErrorMessage(error);
+        setErrorMessage("Server Side Not Available!");
+        console.error(error);
       }
     } catch (e) {
       setLoading(false);

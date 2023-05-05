@@ -9,7 +9,7 @@ export const initialState = {
   setFilteredCountries: (filteredCountries: countryDataType[]) => {},
   searchedCountries: [] as countryDataType[],
   setSearchedCountries: (searchedCountries: countryDataType[]) => {},
-  filterValue: "",
+  filterValue: undefined,
   setFilterValue: (key: any) => {},
   searchValue: "",
   setSearchValue: (key: string) => {},

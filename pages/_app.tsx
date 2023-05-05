@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const [searchedCountries, setSearchedCountries] = useState<countryDataType[]>(
     []
   );
-  const [filterValue, setFilterValue] = useState<any>("");
+  const [filterValue, setFilterValue] = useState<any>(undefined);
   const [searchValue, setSearchValue] = useState<string>("");
 
   const value = useMemo(
