@@ -30,4 +30,4 @@ sudo docker run --rm -it -p 8080:3000 --name alibaba-countries-challenge alibaba
 
 This Next.js app has been deployed by [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-You can find the demo page in [Alibaba Countries Challenge](https://alibab-countries-challenge.vercel.app/).
+You can find the demo page in [Firouze Co AR Products](https://firouze-co.vercel.app/).
