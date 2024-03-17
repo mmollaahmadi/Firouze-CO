@@ -12,12 +12,12 @@ export function sortProducts(products: productDataType[]) {
   }
 }
 
-export function filterByRegion(products: productDataType[], name: string) {
+export function filterByCategory(products: productDataType[], category: string) {
   try {
-    if (name === "") {
+    if (category === "") {
       return null;
     } else {
-      return products.filter((product) => product.name === name);
+      return products.filter((product) => product.category === category);
     }
   } catch (error) {
     console.error(error);

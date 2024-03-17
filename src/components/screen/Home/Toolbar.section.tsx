@@ -1,7 +1,7 @@
 import SearchInput from "@/components/atomic/SearchInput";
 import Select from "@/components/atomic/Select";
 import { GlobalContext } from "@/context";
-import { filterByRegion, searchInCountries } from "@/logic/client/utils";
+import { filterByCategory, searchInCountries } from "@/logic/client/utils";
 import React, { useContext } from "react";
 export default function ToolbarSection() {
   const {
@@ -17,7 +17,7 @@ export default function ToolbarSection() {
   } = useContext(GlobalContext);
 
   async function onFilterValueChange(value: any) {
-    let filteredCountries = await filterByRegion(
+    let filteredCountries = await filterByCategory(
       searchedCountries.length > 0 ? searchedCountries : products,
       value
     );
@@ -44,11 +44,11 @@ export default function ToolbarSection() {
           value={filterValue}
           onValueChange={(value) => onFilterValueChange(value)}
           options={[
-            { value: "Africa", label: "Category 1" },
-            { value: "Americas", label: "Category 2" },
-            { value: "Asia", label: "Category 3" },
-            { value: "Europe", label: "Category 4" },
-            { value: "Oceania", label: "Category 5" },
+            { value: "category1", label: "Category 1" },
+            { value: "category2", label: "Category 2" },
+            { value: "category3", label: "Category 3" },
+            { value: "category4", label: "Category 4" },
+            { value: "category5", label: "Category 5" },
           ]}
         />
       </div>
