@@ -24,7 +24,7 @@ export default function SearchInput({
       />
       <input
         aria-label={"search"}
-        placeholder={"Search for a country ..."}
+        placeholder={"Search for a product ..."}
         className={`shadow-md rounded-md my-2 outline-none min-w-[35%] w-full pr-6 pl-16 py-2 text-left text-sm placeholder:text-opacity-50 \
         ${
           colorMode === "light"

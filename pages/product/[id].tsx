@@ -7,7 +7,7 @@ import { GlobalContext } from "@/context";
 
 export default function Home() {
   const router = useRouter();
-  const { alpha3Code } = router.query;
+  const { id } = router.query;
   const { colorMode } = useContext(GlobalContext);
 
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <title>Alibab Countries Challenge</title>
         <meta
           name="description"
-          content="Alibaba's Challenge for Senior Front-End Position"
+          content="Firouze Faam Products"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -27,7 +27,7 @@ export default function Home() {
         }`}
       >
         <Header />
-        <Detail alpha3Code={alpha3Code} />
+        <Detail id={id} />
       </main>
     </>
   );

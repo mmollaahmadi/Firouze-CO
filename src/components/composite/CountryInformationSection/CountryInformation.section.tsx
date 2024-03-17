@@ -14,7 +14,7 @@ export default function CountryInformationSection({
   const { colorMode } = useContext(GlobalContext);
   return (
     <div
-      className={`grid grid-cols-1 md:grid-cols-2 md:px-6 md:py-8 ${
+      className={`grid grid-cols-1 md:grid-cols-2 md:px-6 md:py-4 ${
         colorMode === "light" ? "text-SuperDarkBlue" : "text-White"
       }`}
     >

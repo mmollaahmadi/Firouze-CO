@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product 1",
+            "category": "category1",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/1/1.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "category": "category2",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/2/2.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "category": "category3",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/3/3.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "category": "category4",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/4/4.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 5,
+            "name": "Product 5",
+            "category": "category5",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/5/5.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 6,
+            "name": "Product 6",
+            "category": "category1",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/6/6.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 7,
+            "name": "Product 7",
+            "category": "category5",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/7/7.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 8,
+            "name": "Product 8",
+            "category": "category5",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/8/8.jpg",
+            "ar_model": ""
+        },
+        {
+            "id": 9,
+            "name": "Product 9",
+            "category": "category5",
+            "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/9/9.jpg",
+            "ar_model": ""
+        }
+    ]
+}

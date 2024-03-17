@@ -9,9 +9,8 @@ export default function ColorModeButton() {
   return (
     <button
       onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
-      className={`outline-none bg-transparent ${
-        colorMode === "light" ? "text-black" : "text-White"
-      }  text-small`}
+      className={`outline-none bg-transparent text-small`}
+      style={{ color: colorMode === "light" ? "black" : "white" }}
     >
       <FontAwesomeIcon
         icon={colorMode === "light" ? regular_moon : faMoon}

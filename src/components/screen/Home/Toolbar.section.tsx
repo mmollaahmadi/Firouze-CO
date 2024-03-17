@@ -5,7 +5,7 @@ import { filterByRegion, searchInCountries } from "@/logic/client/utils";
 import React, { useContext } from "react";
 export default function ToolbarSection() {
   const {
-    countries,
+    products,
     filteredCountries,
     setFilteredCountries,
     searchedCountries,
@@ -18,7 +18,7 @@ export default function ToolbarSection() {
 
   async function onFilterValueChange(value: any) {
     let filteredCountries = await filterByRegion(
-      searchedCountries.length > 0 ? searchedCountries : countries,
+      searchedCountries.length > 0 ? searchedCountries : products,
       value
     );
     setFilteredCountries(filteredCountries ?? []);
@@ -27,7 +27,7 @@ export default function ToolbarSection() {
 
   async function onSearchValueChange(value: string) {
     let searchedCountries = await searchInCountries(
-      filteredCountries.length > 0 ? filteredCountries : countries,
+      filteredCountries.length > 0 ? filteredCountries : products,
       value
     );
     setSearchedCountries(searchedCountries ?? []);
@@ -44,11 +44,11 @@ export default function ToolbarSection() {
           value={filterValue}
           onValueChange={(value) => onFilterValueChange(value)}
           options={[
-            { value: "Africa", label: "Africa" },
-            { value: "Americas", label: "America" },
-            { value: "Asia", label: "Asia" },
-            { value: "Europe", label: "Europe" },
-            { value: "Oceania", label: "Oceania" },
+            { value: "Africa", label: "Category 1" },
+            { value: "Americas", label: "Category 2" },
+            { value: "Asia", label: "Category 3" },
+            { value: "Europe", label: "Category 4" },
+            { value: "Oceania", label: "Category 5" },
           ]}
         />
       </div>

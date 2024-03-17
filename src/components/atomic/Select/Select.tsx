@@ -42,7 +42,7 @@ export default function Select({
         `}
         aria-label="Food"
       >
-        <SelectRadix.Value placeholder="Filter by Region" />
+        <SelectRadix.Value placeholder="Filter by Category" />
         <SelectRadix.Icon>
           <FontAwesomeIcon
             icon={faChevronDown}

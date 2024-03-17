@@ -1,12 +1,13 @@
 import { useContext, useEffect, useState } from "react";
 import backend from "@/data/backend";
 import { GlobalContext } from "@/context";
-import { sortCountries } from "./utils";
+import { sortProducts } from "./utils";
+import data from "../../data/static/data.json";
 
-export default function useCountries() {
+export default function useProducts() {
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const { countries, setCountries } = useContext(GlobalContext);
+  const { products, setProducts } = useContext(GlobalContext);
 
   const getAllCountries = async () => {
     try {
@@ -15,8 +16,8 @@ export default function useCountries() {
       if (ok) {
         setErrorMessage("");
         setLoading(false);
-        sortCountries(result);
-        setCountries(result);
+        sortProducts(result);
+        setProducts(result);
       } else {
         setLoading(false);
         setErrorMessage("Server Side Not Available!");
@@ -29,12 +30,21 @@ export default function useCountries() {
     }
   };
 
+  const readAllProducts = () => {
+    try {
+      setProducts(data?.products)
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   useEffect(() => {
-    getAllCountries();
+    //getAllCountries();
+    readAllProducts();
   }, []);
 
   return {
-    countries,
+    products,
     errorMessage,
     loading,
   };

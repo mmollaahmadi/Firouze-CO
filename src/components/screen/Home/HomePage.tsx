@@ -1,17 +1,19 @@
 import React from "react";
 import ToolbarSection from "./Toolbar.section";
 import CountriesListSection from "./CountriesList.section";
-import useCountries from "@/logic/client/useCountries";
+import useProducts from "@/logic/client/useProducts";
 import Loading from "@/components/atomic/Loading";
 import ErrorMessage from "@/components/atomic/ErrorMessage";
+import ContextSection from "./Context.section";
 
 export default function Home() {
-  const { errorMessage, loading } = useCountries();
+  const { errorMessage, loading } = useProducts();
 
   return (
     <div
       className={"flex flex-col mb-auto p-6 sm:py-4 sm:px-14 bg-transparent"}
     >
+      <ContextSection />
       <ToolbarSection />
       {loading ? (
         <Loading />

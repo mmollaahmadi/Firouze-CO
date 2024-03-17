@@ -11,14 +11,12 @@ export default function FirstColumn({
   return (
     <div className={`col-span-2 ${withDetail && "md:col-span-1"}`}>
       {withDetail && (
-        <InformationRow label="Native Name" value={data?.nativeName} />
+        <InformationRow label="Feature 1" value={data?.nativeName} />
       )}
-      <InformationRow label="Population" value={data?.population} />
-      <InformationRow label="Region" value={data?.region} />
+      <InformationRow label="Category" value={data?.category} />
       {withDetail && (
-        <InformationRow label="Sub Region" value={data?.subregion} />
+        <InformationRow label="Feature 3" value={data?.subregion} />
       )}
-      <InformationRow label="Capital" value={data?.capital} />
     </div>
   );
 }

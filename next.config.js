@@ -10,6 +10,7 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+    domains: ['xrbax.com'],
   },
   experimental: {
     outputStandalone: true,

@@ -16,45 +16,10 @@ type regionalBloc = {
   acronym: string;
   name: string;
 };
-type countryDataType = {
+type productDataType = {
+  id: number;
   name: string;
-  topLevelDomain: string[];
-  alpha2Code: string;
-  alpha3Code: string;
-  callingCodes: string[];
-  capital: string;
-  altSpellings: string[];
-  subregion: string;
-  region: string;
-  population: number;
-  latlng: number[];
-  demonym: string;
-  area: number;
-  timezones: string[];
-  borders: string[];
-  nativeName: string;
-  numericCode: string;
-  flags: {
-    svg: string;
-    png: string;
-  };
-  currencies: currencyType[];
-  languages: languageType[];
-  translations: {
-    br: string;
-    pt: string;
-    nl: string;
-    hr: string;
-    fa: string;
-    de: string;
-    es: string;
-    fr: string;
-    ja: string;
-    it: string;
-    hu: string;
-  };
-  flag: string;
-  regionalBlocs: regionalBloc[];
-  cioc: string;
-  independent: boolean;
+  category: string;
+  image: string;
+  ar_model: string;
 };

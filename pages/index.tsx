@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Alibab Countries Challenge</title>
+        <title>Firouze Faam Products</title>
         <meta
           name="description"
-          content="Alibaba's Challenge for Senior Front-End Position"
+          content="Firouze Faam"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

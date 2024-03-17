@@ -5,23 +5,24 @@ import { useRouter } from "next/router";
 import { GlobalContext } from "@/context";
 import ToolbarSection from "./Toolbar.section";
 
-export default function Detail({ alpha3Code }: { alpha3Code: any }) {
+export default function Detail({ id }: { id: any }) {
   const router = useRouter();
-  const { countries } = useContext(GlobalContext);
-  const findCountryData = (alpha3Code: string) => {
-    return countries?.filter(
-      (country: countryDataType) =>
-        country?.alpha3Code.toLowerCase() === alpha3Code.toLowerCase()
+  const { products } = useContext(GlobalContext);
+  const findCountryData = (id: string) => {
+    return products?.filter(
+      (product: productDataType) =>
+        product?.id == parseInt(id)
     )[0];
   };
-  const [country, setCountry] = useState<countryDataType | null>(null);
+  const [product, setProduct] = useState<productDataType | null>(null);
   useEffect(() => {
     function updateCountryData() {
-      let foundedCountry = findCountryData(alpha3Code);
-      setCountry(foundedCountry);
+      let foundedCountry = findCountryData(id);
+      setProduct(foundedCountry);
     }
     updateCountryData();
-  }, [alpha3Code]);
+  }, [id]);
+  console.log(products, product, id)
   return (
     <div
       className={"flex flex-col mb-auto p-6 sm:py-4 sm:px-14 bg-transparent"}
@@ -31,14 +32,14 @@ export default function Detail({ alpha3Code }: { alpha3Code: any }) {
         <div className="col-span-1 col-row-1 my-auto">
           <Image
             alt={"flag"}
-            src={country?.flags?.svg ? country?.flags?.svg : ""}
-            width={100}
+            src={product?.image ?? ""}
+            width={300}
             height={100}
-            className="w-full"
+            // className="w-full"
             loading="lazy"
           />
         </div>
-        <CountryInformationSection data={country} withDetail={true} />
+        <CountryInformationSection data={product} withDetail={true} />
       </div>
     </div>
   );

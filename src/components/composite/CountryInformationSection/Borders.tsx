@@ -7,14 +7,14 @@ export default function Borders({ borders }: { borders: string[] }) {
   return (
     <div className="flex flex-col md:flex-row w-full col-span-2 h-fit items-start my-2">
       <p className="text-sm font-[600] break-normal min-w-fit">
-        Border Countries:
+        Border Products:
       </p>
       <div className="flex flex-row w-full flex-wrap items-start justify-start my-2 md:my-[-4px]">
         {borders?.map((border, index) => (
           <Button
             key={index}
             className="w-fit my-1 !mx-1"
-            onClick={() => router.push(`/country/${border}`)}
+            onClick={() => router.push(`/product/${border}`)}
             label={getCountryNameByAlpha3Code(border) ?? ""}
           />
         ))}

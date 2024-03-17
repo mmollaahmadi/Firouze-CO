@@ -14,7 +14,7 @@ export default function Header() {
           colorMode === "light" ? "text-SuperDarkBlue" : "text-White"
         }`}
       >
-        Where in the world?
+        Firouze Faam AR Products
       </h2>
       <ColorModeButton />
     </div>

@@ -1,9 +1,9 @@
 import { GlobalContext } from "@/context";
 import { useContext } from "react";
 
-export function sortCountries(countries: countryDataType[]) {
+export function sortProducts(products: productDataType[]) {
   try {
-    countries.sort(
+    products.sort(
       (c1, c2) =>
         c2.population - c1.population || c1.name.localeCompare(c2.name)
     );
@@ -12,12 +12,12 @@ export function sortCountries(countries: countryDataType[]) {
   }
 }
 
-export function filterByRegion(countries: countryDataType[], region: string) {
+export function filterByRegion(products: productDataType[], region: string) {
   try {
     if (region === "") {
       return null;
     } else {
-      return countries.filter((country) => country.region === region);
+      return products.filter((product) => product.region === region);
     }
   } catch (error) {
     console.error(error);
@@ -25,20 +25,20 @@ export function filterByRegion(countries: countryDataType[], region: string) {
 }
 
 export function searchInCountries(
-  countries: countryDataType[],
+  products: productDataType[],
   searchedValue: string
 ) {
   try {
     if (searchedValue === "") {
       return null;
     } else {
-      return countries.filter(
-        (country) =>
-          country.name.localeCompare(searchedValue, undefined, {
+      return products.filter(
+        (product) =>
+          product.name.localeCompare(searchedValue, undefined, {
             sensitivity: "accent",
           }) === 0 ||
-          similarity(searchedValue, country.name) > 0.7 ||
-          country.name.toLowerCase().includes(searchedValue.toLowerCase())
+          similarity(searchedValue, product.name) > 0.7 ||
+          product.name.toLowerCase().includes(searchedValue.toLowerCase())
       );
     }
   } catch (error) {
@@ -87,8 +87,8 @@ function similarity(s1: string, s2: string) {
 
 export function getCountryNameByAlpha3Code(alpha3Code: string) {
   try {
-    const { countries } = useContext(GlobalContext);
-    return countries.filter((country) => country.alpha3Code === alpha3Code)[0]
+    const { products } = useContext(GlobalContext);
+    return products.filter((product) => product.alpha3Code === alpha3Code)[0]
       ?.name;
   } catch (error) {
     console.error(error);

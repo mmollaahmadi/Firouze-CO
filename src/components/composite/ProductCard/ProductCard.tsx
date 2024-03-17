@@ -4,7 +4,7 @@ import React, { useContext } from "react";
 import InformationSection from "../CountryInformationSection";
 import { useRouter } from "next/router";
 
-export default function CountryCard({ data }: { data: any }) {
+export default function ProductCard({ data }: { data: any }) {
   const { colorMode } = useContext(GlobalContext);
   const router = useRouter();
   return (
@@ -14,10 +14,10 @@ export default function CountryCard({ data }: { data: any }) {
           ? "bg-White text-SuperDarkBlue"
           : "bg-DarkBlue text-White"
       }`}
-      onClick={() => router.push(`/country/${data.alpha3Code}`)}
+      onClick={() => router.push(`/product/${data.id}`)}
     >
       <Image
-        src={data?.flags?.svg}
+        src={data?.image}
         alt={""}
         width={200}
         height={200}

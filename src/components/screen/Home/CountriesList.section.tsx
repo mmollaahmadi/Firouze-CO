@@ -1,8 +1,8 @@
-import CountryCard from "@/components/composite/CountryCard";
+import ProductCard from "@/components/composite/ProductCard";
 import { GlobalContext } from "@/context";
 import React, { useContext } from "react";
 export default function CountriesListSection() {
-  const { countries, filteredCountries, searchedCountries } =
+  const { products, filteredCountries, searchedCountries } =
     useContext(GlobalContext);
 
   return (
@@ -15,9 +15,9 @@ export default function CountriesListSection() {
         ? filteredCountries
         : searchedCountries.length > 0
         ? searchedCountries
-        : countries
-      )?.map((country, index) => (
-        <CountryCard key={index} data={country} />
+        : products
+      )?.map((product, index) => (
+        <ProductCard key={index} data={product} />
       ))}
     </div>
   );

@@ -5,20 +5,20 @@ export default function SecondColumn({ data }: { data: any }) {
     <div className="col-span-2 md:col-span-1">
       <InformationRow
         label="Top Level Domain"
-        value={data?.topLevelDomain.join(" ")}
+        value={data?.name}
       />
       <InformationRow
-        label="Currencies"
+        label="Feature 5"
         value={data?.currencies
-          .map((element: any) => {
+          ?.map((element: any) => {
             return element.name;
           })
           .join(" ")}
       />
       <InformationRow
-        label="Languages"
+        label="Feature 6"
         value={data?.languages
-          .map((element: any) => {
+          ?.map((element: any) => {
             return element.name;
           })
           .join(" ")}
