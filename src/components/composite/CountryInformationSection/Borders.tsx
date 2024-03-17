@@ -1,5 +1,5 @@
 import Button from "@/components/atomic/Button";
-import { getCountryNameByAlpha3Code } from "@/logic/client/utils";
+// import { getCountryNameByAlpha3Code } from "@/logic/client/utils";
 import { useRouter } from "next/router";
 import React from "react";
 export default function Borders({ borders }: { borders: string[] }) {
@@ -15,7 +15,7 @@ export default function Borders({ borders }: { borders: string[] }) {
             key={index}
             className="w-fit my-1 !mx-1"
             onClick={() => router.push(`/product/${border}`)}
-            label={getCountryNameByAlpha3Code(border) ?? ""}
+            // label={getCountryNameByAlpha3Code(border) ?? ""}
           />
         ))}
       </div>

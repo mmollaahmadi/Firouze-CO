@@ -5,19 +5,19 @@ export function sortProducts(products: productDataType[]) {
   try {
     products.sort(
       (c1, c2) =>
-        c2.population - c1.population || c1.name.localeCompare(c2.name)
+        c1.name.localeCompare(c2.name)
     );
   } catch (error) {
     console.error(error);
   }
 }
 
-export function filterByRegion(products: productDataType[], region: string) {
+export function filterByRegion(products: productDataType[], name: string) {
   try {
-    if (region === "") {
+    if (name === "") {
       return null;
     } else {
-      return products.filter((product) => product.region === region);
+      return products.filter((product) => product.name === name);
     }
   } catch (error) {
     console.error(error);
@@ -85,12 +85,12 @@ function similarity(s1: string, s2: string) {
   );
 }
 
-export function getCountryNameByAlpha3Code(alpha3Code: string) {
-  try {
-    const { products } = useContext(GlobalContext);
-    return products.filter((product) => product.alpha3Code === alpha3Code)[0]
-      ?.name;
-  } catch (error) {
-    console.error(error);
-  }
-}
+// export function getCountryNameByAlpha3Code(alpha3Code: string) {
+//   try {
+//     const { products } = useContext(GlobalContext);
+//     return products.filter((product) => product.id === alpha3Code)[0]
+//       ?.name;
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }

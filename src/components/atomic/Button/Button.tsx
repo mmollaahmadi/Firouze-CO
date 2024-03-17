@@ -7,7 +7,7 @@ export default function Button({
   className,
   onClick,
 }: {
-  label: string;
+  label?: string;
   icon?: any;
   className?: string;
   onClick: (event: any) => void;
