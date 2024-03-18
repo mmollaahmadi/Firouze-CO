@@ -5,63 +5,72 @@
             "name": "Product 1",
             "category": "category1",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/1/1.jpg",
-            "ar_model": ""
+            "ar_model": "/model/1.glb",
+            "borders": [2, 3]
         },
         {
             "id": 2,
             "name": "Product 2",
             "category": "category2",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/2/2.jpg",
-            "ar_model": ""
+            "ar_model": "/model/2.glb",
+            "borders": [3, 1]
         },
         {
             "id": 3,
             "name": "Product 3",
             "category": "category3",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/3/3.jpg",
-            "ar_model": ""
+            "ar_model": "/model/3.glb",
+            "borders": [3, 1]
         },
         {
             "id": 4,
             "name": "Product 4",
             "category": "category4",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/4/4.jpg",
-            "ar_model": ""
+            "ar_model": "/model/4.glb",
+            "borders": [3, 1]
         },
         {
             "id": 5,
             "name": "Product 5",
             "category": "category5",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/5/5.jpg",
-            "ar_model": ""
+            "ar_model": "/model/5.glb",
+            "borders": [3, 1]
         },
         {
             "id": 6,
             "name": "Product 6",
             "category": "category1",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/6/6.jpg",
-            "ar_model": ""
+            "ar_model": "/model/6.glb",
+            "borders": [3, 1]
         },
         {
             "id": 7,
             "name": "Product 7",
             "category": "category5",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/7/7.jpg",
-            "ar_model": ""
+            "ar_model": "/model/7.glb",
+            "borders": [3, 1]
         },
         {
             "id": 8,
             "name": "Product 8",
             "category": "category5",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/8/8.jpg",
-            "ar_model": ""
+            "ar_model": "/model/8.glb",
+            "borders": [3, 1]
         },
         {
             "id": 9,
             "name": "Product 9",
             "category": "category5",
             "image": "https://xrbax.com/firouzfaam/assets/Models/AR_Models/9/9.jpg",
-            "ar_model": ""
+            "ar_model": "/model/9.glb",
+            "borders": [3, 1]
         }
     ]
 }

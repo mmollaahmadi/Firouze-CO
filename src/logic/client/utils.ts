@@ -85,12 +85,12 @@ function similarity(s1: string, s2: string) {
   );
 }
 
-// export function getCountryNameByAlpha3Code(alpha3Code: string) {
-//   try {
-//     const { products } = useContext(GlobalContext);
-//     return products.filter((product) => product.id === alpha3Code)[0]
-//       ?.name;
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
+export function getProductNameById(id: number) {
+  try {
+    const { products } = useContext(GlobalContext);
+    return products.filter((product) => product.id === id)[0]
+      ?.name;
+  } catch (error) {
+    console.error(error);
+  }
+}
