@@ -46,7 +46,7 @@ export default function Detail({ id }: { id: any }) {
           <model-viewer
             id={`modelViewer${product?.id}`}
             alt="AR Model"
-            ar={true}
+            // ar={true}
             ar-modes="webxr scene-viewer quick-look"
             src={product?.ar_model ?? ""}
             camera-controls
