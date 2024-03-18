@@ -47,6 +47,7 @@ export default function Detail({ id }: { id: any }) {
             id={`modelViewer${product?.id}`}
             alt="AR Model"
             // ar
+            data-ar
             ar-modes="webxr scene-viewer quick-look"
             src={product?.ar_model ?? ""}
             camera-controls
@@ -57,7 +58,7 @@ export default function Detail({ id }: { id: any }) {
             max-camera-orbit="auto 75deg auto"
             environment-image="null"
             style={{ width: "100%", height: "500px" }}
-          >
+          >            
             <button
               slot="ar-button"
               id="ar-button"
