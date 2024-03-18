@@ -3,6 +3,7 @@ import HomePage from "@/components/screen/Home";
 import Header from "@/components/composite/Header";
 import { useContext } from "react";
 import { GlobalContext } from "@/context";
+import Footer from "@/components/composite/Footer";
 
 export default function Home() {
   const { colorMode } = useContext(GlobalContext);
@@ -26,6 +27,7 @@ export default function Home() {
       >
         <Header />
         <HomePage />
+        <Footer />
       </main>
     </>
   );

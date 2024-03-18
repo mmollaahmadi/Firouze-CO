@@ -4,6 +4,7 @@ import Header from "@/components/composite/Header";
 import { useRouter } from "next/router";
 import { useContext } from "react";
 import { GlobalContext } from "@/context";
+import Footer from "@/components/composite/Footer";
 
 export default function Home() {
   const router = useRouter();
@@ -28,6 +29,7 @@ export default function Home() {
       >
         <Header />
         <Detail id={id} />
+        <Footer />
       </main>
     </>
   );

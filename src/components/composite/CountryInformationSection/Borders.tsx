@@ -5,11 +5,11 @@ import React from "react";
 export default function Borders({ borders }: { borders: number[] }) {
   const router = useRouter();
   return (
-    <div className="flex flex-col md:flex-row w-full col-span-2 h-fit items-start my-2">
+    <div className="flex flex-col md:flex-row w-full col-span-2 h-fit items-center my-2 gap-2">
       <p className="text-sm font-[600] break-normal min-w-fit">
         Related Products:
       </p>
-      <div className="flex flex-row w-full flex-wrap items-start justify-start my-2 md:my-[-4px]">
+      <div className="flex flex-row w-full flex-wrap items-center justify-start my-2 md:my-[-4px]">
         {borders?.map((border, index) => (
           <Button
             key={index}
