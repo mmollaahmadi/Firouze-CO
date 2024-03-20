@@ -2,7 +2,11 @@ import Button from "@/components/atomic/Button";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-export default function ToolbarSection() {
+export default function ToolbarSection({
+  innerButtonRef,
+}: {
+  innerButtonRef: any;
+}) {
   const router = useRouter();
   return (
     <div className="flex flex-row w-full justify-start items-center my-6">
@@ -16,6 +20,12 @@ export default function ToolbarSection() {
         onClick={() => router.push("/")}
         label={"Home"}
         className="mx-2"
+      />
+      <Button
+        label={"Display on the wall"}
+        onClick={() => {
+          innerButtonRef.current.click();
+        }}
       />
     </div>
   );
