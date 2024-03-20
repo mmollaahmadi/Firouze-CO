@@ -1,7 +1,7 @@
 import { GlobalContext } from "@/context";
 import Image from "next/image";
 import React, { useContext } from "react";
-import InformationSection from "../CountryInformationSection";
+import InformationSection from "../ProductInformationSection";
 import { useRouter } from "next/router";
 
 export default function ProductCard({ data }: { data: any }) {

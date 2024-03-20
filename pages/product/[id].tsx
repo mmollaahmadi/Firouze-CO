@@ -28,7 +28,7 @@ export default function Home() {
           type="module"
           src="https://unpkg.com/@google/model-viewer@^2.1.1/dist/model-viewer.min.js"
         /> */}
-        {/* <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script> */}
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
       </Head>
       <main
         className={`min-h-[100vh] flex flex-col justify-between ${
@@ -36,7 +36,7 @@ export default function Home() {
         }`}
       >
         <Header />
-        <Detail id={id} />
+        <Detail />
         <Footer />
       </main>
     </>

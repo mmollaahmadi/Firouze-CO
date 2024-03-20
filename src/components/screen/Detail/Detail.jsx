@@ -1,26 +1,36 @@
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
-import CountryInformationSection from "@/components/composite/CountryInformationSection";
+import ProductInformationSection from "@/components/composite/ProductInformationSection";
 import { useRouter } from "next/router";
 import { GlobalContext } from "@/context";
 import ToolbarSection from "./Toolbar.section";
+import useProducts from "@/logic/client/useProducts";
 // import dynamic from 'next/dynamic';
 
 // const ModelViewer = require('@google/model-viewer/dist/model-viewer.min.js') as any;
 // import "@google/model-viewer";
 
-export default function Detail({ id }) {
+export default function Detail() {
   const router = useRouter();
-  const { products } = useContext(GlobalContext);
+  const { id } = router.query;
+  // const { products } = useContext(GlobalContext);
+  const { errorMessage, loading, products } = useProducts();
+  console.log("id ", id, products, loading);
+
   const findCountryData = (id) => {
-    return products?.filter(
-      (product) => product?.id == parseInt(id)
-    )[0];
+    try {
+      if (id) {
+        return products?.filter((product) => product?.id == parseInt(id))[0];
+      }
+    } catch (error) {
+      console.error(error);
+    }
   };
   const [product, setProduct] = useState(null);
   useEffect(() => {
     function updateCountryData() {
       let foundedCountry = findCountryData(id);
+      console.log("foundedCountry", foundedCountry);
       setProduct(foundedCountry);
     }
     updateCountryData();
@@ -43,7 +53,6 @@ export default function Detail({ id }) {
           />
         </div> */}
         <div className="col-span-1 col-row-1 my-auto">
-          
           {/* <model-viewer
             // id={`modelViewer${product?.id}`}
             alt="AR Model"
@@ -67,20 +76,36 @@ export default function Detail({ id }) {
               View in your space
             </button>
           </model-viewer> */}
-          <model-viewer
-            alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-            src={product?.ar_model ?? ""}
-            ar
-            environment-image="/model/moon_1k.hdr"
-            poster="/model/NeilArmstrong.webp"
-            shadow-intensity="1"
-            camera-controls
-            touch-action="pan-y"
-            style={{ width: "100%", height: "500px" }}
+          {product && (
+            <model-viewer
+              alt="AR Model"
+              src={product?.ar_model ?? ""}
+              ar
+              environment-image="/model/moon_1k.hdr"
+              poster={product?.image ?? ""}
+              // poster="/model/NeilArmstrong.webp"
+              shadow-intensity="1"
+              camera-controls
+              touch-action="pan-y"
+              style={{
+                width: "100%",
+                height: "500px",
+                border: "1px dashed gray",
 
-          ></model-viewer>
+                borderRadius: "15px",
+              }}
+            >
+            <button
+            slot="ar-button"
+            id="ar-button"
+            className="bg-takeda-red font-normal tracking-wide text-black"
+          >
+            View in your space
+          </button>
+            </model-viewer>
+          )}
         </div>
-        <CountryInformationSection data={product} withDetail={true} />
+        <ProductInformationSection data={product} withDetail={true} />
       </div>
     </div>
   );
