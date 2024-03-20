@@ -11,10 +11,10 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps }: AppProps) {
   const [colorMode, setColorMode] = useState<colorModeType>("light");
   const [products, setProducts] = useState<productDataType[]>([]);
-  const [filteredCountries, setFilteredCountries] = useState<productDataType[]>(
+  const [filteredProducts, setFilteredCountries] = useState<productDataType[]>(
     []
   );
-  const [searchedCountries, setSearchedCountries] = useState<productDataType[]>(
+  const [searchedProducts, setSearchedCountries] = useState<productDataType[]>(
     []
   );
   const [filterValue, setFilterValue] = useState<any>(undefined);
@@ -26,9 +26,9 @@ export default function App({ Component, pageProps }: AppProps) {
       setColorMode,
       products,
       setProducts,
-      filteredCountries,
+      filteredProducts,
       setFilteredCountries,
-      searchedCountries,
+      searchedProducts,
       setSearchedCountries,
       filterValue,
       setFilterValue,
@@ -40,9 +40,9 @@ export default function App({ Component, pageProps }: AppProps) {
       setColorMode,
       products,
       setProducts,
-      filteredCountries,
+      filteredProducts,
       setFilteredCountries,
-      searchedCountries,
+      searchedProducts,
       setSearchedCountries,
       filterValue,
       setFilterValue,

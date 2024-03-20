@@ -1,6 +1,6 @@
 import React from "react";
 import ToolbarSection from "./Toolbar.section";
-import CountriesListSection from "./CountriesList.section";
+import ProductsListSection from "./ProductsList.section";
 import useProducts from "@/logic/client/useProducts";
 import Loading from "@/components/atomic/Loading";
 import ErrorMessage from "@/components/atomic/ErrorMessage";
@@ -20,7 +20,7 @@ export default function Home() {
       ) : errorMessage !== "" ? (
         <ErrorMessage message={errorMessage} />
       ) : (
-        <CountriesListSection />
+        <ProductsListSection />
       )}
     </div>
   );

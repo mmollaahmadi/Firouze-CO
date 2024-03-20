@@ -6,9 +6,9 @@ import React, { useContext } from "react";
 export default function ToolbarSection() {
   const {
     products,
-    filteredCountries,
+    filteredProducts,
     setFilteredCountries,
-    searchedCountries,
+    searchedProducts,
     setSearchedCountries,
     searchValue,
     setSearchValue,
@@ -17,20 +17,20 @@ export default function ToolbarSection() {
   } = useContext(GlobalContext);
 
   async function onFilterValueChange(value: any) {
-    let filteredCountries = await filterByCategory(
-      searchedCountries.length > 0 ? searchedCountries : products,
+    let filteredProducts = await filterByCategory(
+      searchedProducts.length > 0 ? searchedProducts : products,
       value
     );
-    setFilteredCountries(filteredCountries ?? []);
+    setFilteredCountries(filteredProducts ?? []);
     setFilterValue(value);
   }
 
   async function onSearchValueChange(value: string) {
-    let searchedCountries = await searchInCountries(
-      filteredCountries.length > 0 ? filteredCountries : products,
+    let searchedProducts = await searchInCountries(
+      filteredProducts.length > 0 ? filteredProducts : products,
       value
     );
-    setSearchedCountries(searchedCountries ?? []);
+    setSearchedCountries(searchedProducts ?? []);
     setSearchValue(value);
   }
 
