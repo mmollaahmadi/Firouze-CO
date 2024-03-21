@@ -3,6 +3,8 @@ import Select from "@/components/atomic/Select";
 import { GlobalContext } from "@/context";
 import { filterByCategory, searchInCountries } from "@/logic/client/utils";
 import React, { useContext } from "react";
+import { CATEGORIES } from "../../../constants";
+
 export default function ToolbarSection() {
   const {
     products,
@@ -14,6 +16,7 @@ export default function ToolbarSection() {
     setSearchValue,
     filterValue,
     setFilterValue,
+    language,
   } = useContext(GlobalContext);
 
   async function onFilterValueChange(value: any) {
@@ -28,7 +31,8 @@ export default function ToolbarSection() {
   async function onSearchValueChange(value: string) {
     let searchedProducts = await searchInCountries(
       filteredProducts.length > 0 ? filteredProducts : products,
-      value
+      value,
+      language
     );
     setSearchedCountries(searchedProducts ?? []);
     setSearchValue(value);
@@ -43,13 +47,12 @@ export default function ToolbarSection() {
         <Select
           value={filterValue}
           onValueChange={(value) => onFilterValueChange(value)}
-          options={[
-            { value: "category1", label: "Category 1" },
-            { value: "category2", label: "Category 2" },
-            { value: "category3", label: "Category 3" },
-            { value: "category4", label: "Category 4" },
-            { value: "category5", label: "Category 5" },
-          ]}
+          options={CATEGORIES?.map((f) => {
+            return {
+              value: f.value,
+              label: language === "fa" ? f.fa_label : f.en_label,
+            };
+          })}
         />
       </div>
     </div>

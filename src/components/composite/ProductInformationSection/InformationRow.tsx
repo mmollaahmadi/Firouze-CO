@@ -1,4 +1,5 @@
-import React from "react";
+import { GlobalContext } from "@/context";
+import React, { useContext } from "react";
 export default function InformationRow({
   label,
   value,
@@ -6,10 +7,15 @@ export default function InformationRow({
   label: string;
   value: string;
 }) {
+  const { language } = useContext(GlobalContext);
   return (
     <div className="flex flex-row my-1">
-      <p className="font-[600] text-sm lg:text-md">{label}:</p>
-      <p className="ml-1 text-sm lg:text-md">{value}</p>
+      <p className="font-[600] text-sm lg:text-md">{`${label}: `}</p>
+      <p
+        className={`${language === "fa" ? "mr-1" : "ml-1"} text-sm lg:text-md`}
+      >
+        {value}
+      </p>
     </div>
   );
 }

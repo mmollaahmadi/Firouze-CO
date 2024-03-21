@@ -1,3 +1,4 @@
+import { getDictionary } from "@/logic/client/dictionaries";
 import { createContext } from "react";
 
 export const initialState = {
@@ -13,5 +14,7 @@ export const initialState = {
   setFilterValue: (key: any) => {},
   searchValue: "",
   setSearchValue: (key: string) => {},
+  language: "fa" as "fa" | "en",
+  setLanguage: (language: "fa" | "en") => {},
 };
 export const GlobalContext = createContext(initialState);

@@ -11,7 +11,7 @@ export default function ProductInformationSection({
   data: any;
   withDetail?: boolean;
 }) {
-  const { colorMode } = useContext(GlobalContext);
+  const { colorMode, language } = useContext(GlobalContext);
   return (
     <div
       className={`grid grid-cols-1 md:grid-cols-2 px-6 py-2 ${
@@ -19,7 +19,7 @@ export default function ProductInformationSection({
       }`}
     >
       <ProductName
-        name={data?.name}
+        name={data?.[`${language}_name`]}
         className={withDetail ? "md:text-xl" : ""}
       />
       <FirstColumn data={data} withDetail={withDetail} />

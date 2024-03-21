@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
-import { faMoon as regular_moon } from "@fortawesome/free-regular-svg-icons";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { GlobalContext } from "@/context";
 
 export default function ColorModeButton() {
@@ -12,11 +11,19 @@ export default function ColorModeButton() {
       className={`outline-none bg-transparent text-small`}
       style={{ color: colorMode === "light" ? "black" : "white" }}
     >
-      <FontAwesomeIcon
-        icon={colorMode === "light" ? regular_moon : faMoon}
-        className={`text-small mx-2`}
-      />
-      {`${colorMode === "light" ? "Dark" : "Light"} Mode`}
+      {
+        colorMode === "light" ? (
+          <FontAwesomeIcon
+            icon={faMoon}
+            className={`text-small mx-2`}
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon={faSun}
+            className={`text-small mx-2`}
+          />
+        )
+      }
     </button>
   );
 }

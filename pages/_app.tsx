@@ -19,6 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   );
   const [filterValue, setFilterValue] = useState<any>(undefined);
   const [searchValue, setSearchValue] = useState<string>("");
+  const [language, setLanguage] = useState<"fa" | "en">("fa");
 
   const value = useMemo(
     () => ({
@@ -34,6 +35,8 @@ export default function App({ Component, pageProps }: AppProps) {
       setFilterValue,
       searchValue,
       setSearchValue,
+      language,
+      setLanguage,
     }),
     [
       colorMode,
@@ -48,13 +51,16 @@ export default function App({ Component, pageProps }: AppProps) {
       setFilterValue,
       searchValue,
       setSearchValue,
+      language,
+      setLanguage,
     ]
   );
   return (
     <GlobalContext.Provider value={value}>
       <style jsx global>{`
         html {
-          font-family: ${nunito_sans.style.fontFamily};
+          font-family: ${language === "fa" ? 'IranianSans' : nunito_sans.style.fontFamily};
+          direction: ${language === "fa" ? "rtl" : "ltr"};
         }
       `}</style>
       <Component {...pageProps} />

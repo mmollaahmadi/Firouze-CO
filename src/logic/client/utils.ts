@@ -1,11 +1,11 @@
 import { GlobalContext } from "@/context";
 import { useContext } from "react";
 
-export function sortProducts(products: productDataType[]) {
+export function sortProducts(products: productDataType[], language: "fa" | "en") {
   try {
     products.sort(
       (c1, c2) =>
-        c1.name.localeCompare(c2.name)
+        c1[`${language}_name`].localeCompare(c2[`${language}_name`])
     );
   } catch (error) {
     console.error(error);
@@ -26,7 +26,8 @@ export function filterByCategory(products: productDataType[], category: string) 
 
 export function searchInCountries(
   products: productDataType[],
-  searchedValue: string
+  searchedValue: string,
+  language: "fa" | "en",
 ) {
   try {
     if (searchedValue === "") {
@@ -34,11 +35,11 @@ export function searchInCountries(
     } else {
       return products.filter(
         (product) =>
-          product.name.localeCompare(searchedValue, undefined, {
+          product[`${language}_name`].localeCompare(searchedValue, undefined, {
             sensitivity: "accent",
           }) === 0 ||
-          similarity(searchedValue, product.name) > 0.7 ||
-          product.name.toLowerCase().includes(searchedValue.toLowerCase())
+          similarity(searchedValue, product[`${language}_name`]) > 0.7 ||
+          product[`${language}_name`].toLowerCase().includes(searchedValue.toLowerCase())
       );
     }
   } catch (error) {
@@ -85,11 +86,11 @@ function similarity(s1: string, s2: string) {
   );
 }
 
-export function getProductNameById(id: number) {
+export function getProductNameById(id: number, language: "fa" | "en") {
   try {
     const { products } = useContext(GlobalContext);
     return products.filter((product) => product.id === id)[0]
-      ?.name;
+      ?.[`${language}_name`];
   } catch (error) {
     console.error(error);
   }

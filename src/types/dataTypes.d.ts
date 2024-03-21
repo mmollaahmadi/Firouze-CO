@@ -18,7 +18,8 @@ type regionalBloc = {
 };
 type productDataType = {
   id: number;
-  name: string;
+  fa_name: string;
+  en_name: string;
   category: string;
   image: string;
   ar_model: string;

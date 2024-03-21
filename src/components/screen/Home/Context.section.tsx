@@ -1,17 +1,25 @@
 import { GlobalContext } from "@/context";
-import React, { useContext } from "react";
+import useLanguage from "@/logic/client/useLanguage";
+import React, { useContext, useEffect, useState } from "react";
+
 export default function ContextSection() {
-  const { colorMode } = useContext(GlobalContext);
+  const { colorMode, language } = useContext(GlobalContext);
+  const { getContext } = useLanguage();
+  const context = getContext(language);
+
   return (
-    <div style={{ color: colorMode === "light" ? "black" : "white" }} className="text-center">
-      <strong>Try Our Products</strong>
-      <div className="grid grid-cols-1 grid-rows-1 px-16 py-4 text-justify">
-        Welcome to our product page! Here, you can explore our wide range of
-        products in a unique way. By clicking on a product, you can view a 3D
-        model of the product in augmented reality (AR). This allows you to see
-        the product from all angles and get a better understanding of its
-        dimensions and appearance. Simply click on a product and then click on
-        the cube button to view the AR model. Enjoy exploring our products!
+    <div
+      style={{ color: colorMode === "light" ? "black" : "white" }}
+      className="text-center"
+    >
+      <strong>{context?.title}</strong>
+      <div
+        style={{
+          direction: language === "fa" ? "rtl" : "ltr",
+        }}
+        className={`grid grid-cols-1 grid-rows-1 px-16 py-4 text-justify`}
+      >
+        {context?.context}
       </div>
     </div>
   );

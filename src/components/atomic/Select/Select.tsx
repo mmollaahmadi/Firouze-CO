@@ -3,6 +3,7 @@ import * as SelectRadix from "@radix-ui/react-select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { GlobalContext } from "@/context";
+import useLanguage from "@/logic/client/useLanguage";
 
 export default function Select({
   options,
@@ -13,9 +14,10 @@ export default function Select({
   onValueChange: (value: any) => void;
   value: any;
 }) {
-  const { colorMode } = useContext(GlobalContext);
+  const { colorMode, language } = useContext(GlobalContext);
   const [key, setKey] = useState<number>(+new Date());
-
+  const { getContext } = useLanguage();
+  const context = getContext(language);
   function handleOnValueChange(value: string) {
     if (value === "") {
       onValueChange(undefined);
@@ -37,12 +39,15 @@ export default function Select({
           colorMode === "light"
             ? "bg-White text-SuperDarkBlue"
             : "bg-DarkBlue text-White"
-        }
+        }        
         ${value === undefined ? "text-opacity-50" : "text-opacity-1"}
         `}
         aria-label="Food"
+        style={{
+          direction: language === "fa" ? "rtl" : "ltr"
+        }}
       >
-        <SelectRadix.Value placeholder="Filter by Category" />
+        <SelectRadix.Value placeholder={context?.filter_placeholder} />
         <SelectRadix.Icon>
           <FontAwesomeIcon
             icon={faChevronDown}
@@ -62,6 +67,9 @@ export default function Select({
           position="popper"
           align="start"
           alignOffset={0}
+          style={{
+            direction: language === "fa" ? "rtl" : "ltr"
+          }}
         >
           <SelectRadix.Viewport className="py-2">
             {options?.map((option, index) => (
@@ -93,7 +101,7 @@ export default function Select({
                       : "hover:bg-White/10"
                   }`}
                 >
-                  <SelectRadix.ItemText>{"Clear Filter"}</SelectRadix.ItemText>
+                  <SelectRadix.ItemText>{context?.remove_filter}</SelectRadix.ItemText>
                   <SelectRadix.ItemIndicator></SelectRadix.ItemIndicator>
                 </SelectRadix.Item>
               </>

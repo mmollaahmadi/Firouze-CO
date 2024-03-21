@@ -1,0 +1,16 @@
+{
+  "header_title": "Firouze Faam AR Products",
+  "light_color_mode": "Light Mode",
+  "dark_color_mode": "Dark Mode",
+  "title": "Try Our Products",
+  "context": "Welcome to our product page! Here, you can explore our wide range of products in a unique way. By clicking on a product, you can view a 3D model of the product in augmented reality (AR). This allows you to see the product from all angles and get a better understanding of its dimensions and appearance. Simply click on a product and then click on the cube button to view the AR model. Enjoy exploring our products!",
+  "search_placeholder": "Search for a product ...",
+  "filter_placeholder": "Filter by Category",
+  "remove_filter": "Clear Filter",
+  "category": "Category",
+  "footer_context": "© 2024 XRBAX All rights reserved.",
+  "back_btn": "Back",
+  "home_btn": "Home",
+  "display_on_the_wall": "Display on the wall",
+  "related_products": "Related Products"
+}

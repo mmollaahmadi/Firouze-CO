@@ -16,7 +16,7 @@ export default function useProducts() {
       if (ok) {
         setErrorMessage("");
         setLoading(false);
-        sortProducts(result);
+        // sortProducts(result);
         setProducts(result);
       } else {
         setLoading(false);

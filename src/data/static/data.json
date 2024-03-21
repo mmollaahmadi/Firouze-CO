@@ -1,430 +1,640 @@
 {
-  "products": [
+  "products":[
     {
       "id": 1,
-      "name": "Product 1",
       "category": "category1",
       "image": "/model/1/1.jpg",
       "ar_model": "/model/1/1.glb",
-      "borders": [2, 3]
+      "borders": [
+        2,
+        3
+      ],
+      "en_name": "Product 1",
+      "fa_name": "محصول 1"
     },
     {
       "id": 2,
-      "name": "Product 2",
       "category": "category2",
       "image": "/model/2/2.jpg",
       "ar_model": "/model/2/2.glb",
-      "borders": [3, 4]
+      "borders": [
+        3,
+        4
+      ],
+      "en_name": "Product 2",
+      "fa_name": "محصول 2"
     },
     {
       "id": 3,
-      "name": "Product 3",
       "category": "category3",
       "image": "/model/3/3.jpg",
       "ar_model": "/model/3/3.glb",
-      "borders": [4, 5]
+      "borders": [
+        4,
+        5
+      ],
+      "en_name": "Product 3",
+      "fa_name": "محصول 3"
     },
     {
       "id": 4,
-      "name": "Product 4",
       "category": "category4",
       "image": "/model/4/4.jpg",
       "ar_model": "/model/4/4.glb",
-      "borders": [5, 6]
+      "borders": [
+        5,
+        6
+      ],
+      "en_name": "Product 4",
+      "fa_name": "محصول 4"
     },
     {
       "id": 5,
-      "name": "Product 5",
       "category": "category5",
       "image": "/model/5/5.jpg",
       "ar_model": "/model/5/5.glb",
-      "borders": [6, 7]
+      "borders": [
+        6,
+        7
+      ],
+      "en_name": "Product 5",
+      "fa_name": "محصول 5"
     },
     {
       "id": 6,
-      "name": "Product 6",
       "category": "category1",
       "image": "/model/6/6.jpg",
       "ar_model": "/model/6/6.glb",
-      "borders": [7, 8]
+      "borders": [
+        7,
+        8
+      ],
+      "en_name": "Product 6",
+      "fa_name": "محصول 6"
     },
     {
       "id": 7,
-      "name": "Product 7",
       "category": "category2",
       "image": "/model/7/7.jpg",
       "ar_model": "/model/7/7.glb",
-      "borders": [8, 9]
+      "borders": [
+        8,
+        9
+      ],
+      "en_name": "Product 7",
+      "fa_name": "محصول 7"
     },
     {
       "id": 8,
-      "name": "Product 8",
       "category": "category3",
       "image": "/model/8/8.jpg",
       "ar_model": "/model/8/8.glb",
-      "borders": [9, 10]
+      "borders": [
+        9,
+        10
+      ],
+      "en_name": "Product 8",
+      "fa_name": "محصول 8"
     },
     {
       "id": 9,
-      "name": "Product 9",
       "category": "category4",
       "image": "/model/9/9.jpg",
       "ar_model": "/model/9/9.glb",
-      "borders": [10, 11]
+      "borders": [
+        10,
+        11
+      ],
+      "en_name": "Product 9",
+      "fa_name": "محصول 9"
     },
     {
       "id": 10,
-      "name": "Product 10",
       "category": "category5",
       "image": "/model/10/10.jpg",
       "ar_model": "/model/10/10.glb",
-      "borders": [11, 12]
+      "borders": [
+        11,
+        12
+      ],
+      "en_name": "Product 10",
+      "fa_name": "محصول 10"
     },
     {
       "id": 11,
-      "name": "Product 11",
       "category": "category1",
       "image": "/model/11/11.jpg",
       "ar_model": "/model/11/11.glb",
-      "borders": [12, 13]
+      "borders": [
+        12,
+        13
+      ],
+      "en_name": "Product 11",
+      "fa_name": "محصول 11"
     },
     {
       "id": 12,
-      "name": "Product 12",
       "category": "category2",
       "image": "/model/12/12.jpg",
       "ar_model": "/model/12/12.glb",
-      "borders": [13, 14]
+      "borders": [
+        13,
+        14
+      ],
+      "en_name": "Product 12",
+      "fa_name": "محصول 12"
     },
     {
       "id": 13,
-      "name": "Product 13",
       "category": "category3",
       "image": "/model/13/13.jpg",
       "ar_model": "/model/13/13.glb",
-      "borders": [14, 15]
+      "borders": [
+        14,
+        15
+      ],
+      "en_name": "Product 13",
+      "fa_name": "محصول 13"
     },
     {
       "id": 14,
-      "name": "Product 14",
       "category": "category4",
       "image": "/model/14/14.jpg",
       "ar_model": "/model/14/14.glb",
-      "borders": [15, 16]
+      "borders": [
+        15,
+        16
+      ],
+      "en_name": "Product 14",
+      "fa_name": "محصول 14"
     },
     {
       "id": 15,
-      "name": "Product 15",
       "category": "category5",
       "image": "/model/15/15.jpg",
       "ar_model": "/model/15/15.glb",
-      "borders": [16, 17]
+      "borders": [
+        16,
+        17
+      ],
+      "en_name": "Product 15",
+      "fa_name": "محصول 15"
     },
     {
       "id": 16,
-      "name": "Product 16",
       "category": "category1",
       "image": "/model/16/16.jpg",
       "ar_model": "/model/16/16.glb",
-      "borders": [17, 18]
+      "borders": [
+        17,
+        18
+      ],
+      "en_name": "Product 16",
+      "fa_name": "محصول 16"
     },
     {
       "id": 17,
-      "name": "Product 17",
       "category": "category2",
       "image": "/model/17/17.jpg",
       "ar_model": "/model/17/17.glb",
-      "borders": [18, 19]
+      "borders": [
+        18,
+        19
+      ],
+      "en_name": "Product 17",
+      "fa_name": "محصول 17"
     },
     {
       "id": 18,
-      "name": "Product 18",
       "category": "category3",
       "image": "/model/18/18.jpg",
       "ar_model": "/model/18/18.glb",
-      "borders": [19, 20]
+      "borders": [
+        19,
+        20
+      ],
+      "en_name": "Product 18",
+      "fa_name": "محصول 18"
     },
     {
       "id": 19,
-      "name": "Product 19",
       "category": "category4",
       "image": "/model/19/19.jpg",
       "ar_model": "/model/19/19.glb",
-      "borders": [20, 21]
+      "borders": [
+        20,
+        21
+      ],
+      "en_name": "Product 19",
+      "fa_name": "محصول 19"
     },
     {
       "id": 20,
-      "name": "Product 20",
       "category": "category5",
       "image": "/model/20/20.jpg",
       "ar_model": "/model/20/20.glb",
-      "borders": [21, 22]
+      "borders": [
+        21,
+        22
+      ],
+      "en_name": "Product 20",
+      "fa_name": "محصول 20"
     },
-
     {
       "id": 21,
-      "name": "Product 21",
       "category": "category1",
       "image": "/model/21/21.jpg",
       "ar_model": "/model/21/21.glb",
-      "borders": [2, 3]
+      "borders": [
+        2,
+        3
+      ],
+      "en_name": "Product 21",
+      "fa_name": "محصول 21"
     },
     {
       "id": 22,
-      "name": "Product 22",
       "category": "category2",
       "image": "/model/22/22.jpg",
       "ar_model": "/model/22/22.glb",
-      "borders": [3, 4]
+      "borders": [
+        3,
+        4
+      ],
+      "en_name": "Product 22",
+      "fa_name": "محصول 22"
     },
     {
       "id": 23,
-      "name": "Product 23",
       "category": "category3",
       "image": "/model/23/23.jpg",
       "ar_model": "/model/23/23.glb",
-      "borders": [4, 5]
+      "borders": [
+        4,
+        5
+      ],
+      "en_name": "Product 23",
+      "fa_name": "محصول 23"
     },
     {
       "id": 24,
-      "name": "Product 24",
       "category": "category4",
       "image": "/model/24/24.jpg",
       "ar_model": "/model/24/24.glb",
-      "borders": [5, 6]
+      "borders": [
+        5,
+        6
+      ],
+      "en_name": "Product 24",
+      "fa_name": "محصول 24"
     },
     {
       "id": 25,
-      "name": "Product 25",
       "category": "category5",
       "image": "/model/25/25.jpg",
       "ar_model": "/model/25/25.glb",
-      "borders": [6, 7]
+      "borders": [
+        6,
+        7
+      ],
+      "en_name": "Product 25",
+      "fa_name": "محصول 25"
     },
     {
       "id": 26,
-      "name": "Product 26",
       "category": "category1",
       "image": "/model/26/26.jpg",
       "ar_model": "/model/26/26.glb",
-      "borders": [7, 8]
+      "borders": [
+        7,
+        8
+      ],
+      "en_name": "Product 26",
+      "fa_name": "محصول 26"
     },
     {
       "id": 27,
-      "name": "Product 27",
       "category": "category2",
       "image": "/model/27/27.jpg",
       "ar_model": "/model/27/27.glb",
-      "borders": [8, 9]
+      "borders": [
+        8,
+        9
+      ],
+      "en_name": "Product 27",
+      "fa_name": "محصول 27"
     },
     {
       "id": 28,
-      "name": "Product 28",
       "category": "category3",
       "image": "/model/28/28.jpg",
       "ar_model": "/model/28/28.glb",
-      "borders": [9, 10]
+      "borders": [
+        9,
+        10
+      ],
+      "en_name": "Product 28",
+      "fa_name": "محصول 28"
     },
     {
       "id": 29,
-      "name": "Product 29",
       "category": "category4",
       "image": "/model/29/29.jpg",
       "ar_model": "/model/29/29.glb",
-      "borders": [10, 11]
+      "borders": [
+        10,
+        11
+      ],
+      "en_name": "Product 29",
+      "fa_name": "محصول 29"
     },
     {
       "id": 30,
-      "name": "Product 30",
       "category": "category5",
       "image": "/model/30/30.jpg",
       "ar_model": "/model/30/30.glb",
-      "borders": [11, 12]
+      "borders": [
+        11,
+        12
+      ],
+      "en_name": "Product 30",
+      "fa_name": "محصول 30"
     },
     {
       "id": 31,
-      "name": "Product 31",
       "category": "category1",
       "image": "/model/31/31.jpg",
       "ar_model": "/model/31/31.glb",
-      "borders": [12, 13]
+      "borders": [
+        12,
+        13
+      ],
+      "en_name": "Product 31",
+      "fa_name": "محصول 31"
     },
     {
       "id": 32,
-      "name": "Product 32",
       "category": "category2",
       "image": "/model/32/32.jpg",
       "ar_model": "/model/32/32.glb",
-      "borders": [13, 14]
+      "borders": [
+        13,
+        14
+      ],
+      "en_name": "Product 32",
+      "fa_name": "محصول 32"
     },
     {
       "id": 33,
-      "name": "Product 33",
       "category": "category3",
       "image": "/model/33/33.jpg",
       "ar_model": "/model/33/33.glb",
-      "borders": [14, 15]
+      "borders": [
+        14,
+        15
+      ],
+      "en_name": "Product 33",
+      "fa_name": "محصول 33"
     },
     {
       "id": 34,
-      "name": "Product 34",
       "category": "category4",
       "image": "/model/34/34.jpg",
       "ar_model": "/model/34/34.glb",
-      "borders": [15, 16]
+      "borders": [
+        15,
+        16
+      ],
+      "en_name": "Product 34",
+      "fa_name": "محصول 34"
     },
     {
       "id": 35,
-      "name": "Product 35",
       "category": "category5",
       "image": "/model/35/35.jpg",
       "ar_model": "/model/35/35.glb",
-      "borders": [16, 17]
+      "borders": [
+        16,
+        17
+      ],
+      "en_name": "Product 35",
+      "fa_name": "محصول 35"
     },
     {
       "id": 36,
-      "name": "Product 36",
       "category": "category1",
       "image": "/model/36/36.jpg",
       "ar_model": "/model/36/36.glb",
-      "borders": [17, 18]
+      "borders": [
+        17,
+        18
+      ],
+      "en_name": "Product 36",
+      "fa_name": "محصول 36"
     },
     {
       "id": 37,
-      "name": "Product 37",
       "category": "category2",
       "image": "/model/37/37.jpg",
       "ar_model": "/model/37/37.glb",
-      "borders": [18, 19]
+      "borders": [
+        18,
+        19
+      ],
+      "en_name": "Product 37",
+      "fa_name": "محصول 37"
     },
     {
       "id": 38,
-      "name": "Product 38",
       "category": "category3",
       "image": "/model/38/38.jpg",
       "ar_model": "/model/38/38.glb",
-      "borders": [19, 20]
+      "borders": [
+        19,
+        20
+      ],
+      "en_name": "Product 38",
+      "fa_name": "محصول 38"
     },
-
     {
       "id": 39,
-      "name": "Product 39",
       "category": "category4",
       "image": "/model/39/39.jpg",
       "ar_model": "/model/39/39.glb",
-      "borders": [20, 21]
+      "borders": [
+        20,
+        21
+      ],
+      "en_name": "Product 39",
+      "fa_name": "محصول 39"
     },
     {
       "id": 40,
-      "name": "Product 40",
       "category": "category5",
       "image": "/model/40/40.jpg",
       "ar_model": "/model/40/40.glb",
-      "borders": [21, 22]
+      "borders": [
+        21,
+        22
+      ],
+      "en_name": "Product 40",
+      "fa_name": "محصول 40"
     },
     {
       "id": 41,
-      "name": "Product 41",
       "category": "category1",
       "image": "/model/41/41.jpg",
       "ar_model": "/model/41/41.glb",
-      "borders": [22, 23]
+      "borders": [
+        22,
+        23
+      ],
+      "en_name": "Product 41",
+      "fa_name": "محصول 41"
     },
     {
       "id": 42,
-      "name": "Product 42",
       "category": "category2",
       "image": "/model/42/42.jpg",
       "ar_model": "/model/42/42.glb",
-      "borders": [23, 24]
+      "borders": [
+        23,
+        24
+      ],
+      "en_name": "Product 42",
+      "fa_name": "محصول 42"
     },
     {
       "id": 43,
-      "name": "Product 43",
       "category": "category3",
       "image": "/model/43/43.jpg",
       "ar_model": "/model/43/43.glb",
-      "borders": [24, 25]
+      "borders": [
+        24,
+        25
+      ],
+      "en_name": "Product 43",
+      "fa_name": "محصول 43"
     },
     {
       "id": 44,
-      "name": "Product 44",
       "category": "category4",
       "image": "/model/44/44.jpg",
       "ar_model": "/model/44/44.glb",
-      "borders": [25, 26]
+      "borders": [
+        25,
+        26
+      ],
+      "en_name": "Product 44",
+      "fa_name": "محصول 44"
     },
     {
       "id": 45,
-      "name": "Product 45",
       "category": "category5",
       "image": "/model/45/45.jpg",
       "ar_model": "/model/45/45.glb",
-      "borders": [26, 27]
+      "borders": [
+        26,
+        27
+      ],
+      "en_name": "Product 45",
+      "fa_name": "محصول 45"
     },
     {
       "id": 46,
-      "name": "Product 46",
       "category": "category1",
       "image": "/model/46/46.jpg",
       "ar_model": "/model/46/46.glb",
-      "borders": [27, 28]
+      "borders": [
+        27,
+        28
+      ],
+      "en_name": "Product 46",
+      "fa_name": "محصول 46"
     },
     {
       "id": 47,
-      "name": "Product 47",
       "category": "category2",
       "image": "/model/47/47.jpg",
       "ar_model": "/model/47/47.glb",
-      "borders": [28, 29]
+      "borders": [
+        28,
+        29
+      ],
+      "en_name": "Product 47",
+      "fa_name": "محصول 47"
     },
     {
       "id": 48,
-      "name": "Product 48",
       "category": "category3",
       "image": "/model/48/48.jpg",
       "ar_model": "/model/48/48.glb",
-      "borders": [29, 30]
+      "borders": [
+        29,
+        30
+      ],
+      "en_name": "Product 48",
+      "fa_name": "محصول 48"
     },
     {
       "id": 49,
-      "name": "Product 49",
       "category": "category4",
       "image": "/model/49/49.jpg",
       "ar_model": "/model/49/49.glb",
-      "borders": [30, 31]
+      "borders": [
+        30,
+        31
+      ],
+      "en_name": "Product 49",
+      "fa_name": "محصول 49"
     },
     {
       "id": 50,
-      "name": "Product 50",
       "category": "category5",
       "image": "/model/50/50.jpg",
       "ar_model": "/model/50/50.glb",
-      "borders": [31, 32]
+      "borders": [
+        31,
+        32
+      ],
+      "en_name": "Product 50",
+      "fa_name": "محصول 50"
     },
     {
       "id": 51,
-      "name": "Product 51",
       "category": "category1",
       "image": "/model/51/51.jpg",
       "ar_model": "/model/51/51.glb",
-      "borders": [32, 33]
+      "borders": [
+        32,
+        33
+      ],
+      "en_name": "Product 51",
+      "fa_name": "محصول 51"
     },
     {
       "id": 52,
-      "name": "Product 52",
       "category": "category2",
       "image": "/model/52/52.jpg",
       "ar_model": "/model/52/52.glb",
-      "borders": [33, 34]
+      "borders": [
+        33,
+        34
+      ],
+      "en_name": "Product 52",
+      "fa_name": "محصول 52"
     },
     {
       "id": 53,
-      "name": "Product 53",
       "category": "category3",
       "image": "/model/53/53.jpg",
       "ar_model": "/model/53/53.glb",
-      "borders": [34, 35]
+      "borders": [
+        34,
+        35
+      ],
+      "en_name": "Product 53",
+      "fa_name": "محصول 53"
     }
   ]
 }
