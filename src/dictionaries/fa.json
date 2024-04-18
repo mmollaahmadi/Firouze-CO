@@ -9,8 +9,9 @@
   "remove_filter": "حذف فیلتر",
   "category": "دسته‌بندی",
   "footer_context": "© 2024 XRBAX All rights reserved.",
-  "back_btn": "برگشت",
-  "home_btn": "صفحه اصلی",
+  "back_btn": "بازگشت",
+  "home_btn": "خانه",
   "display_on_the_wall": "نمایش روی دیوار",
-  "related_products": "محصولات مرتبط"
+  "related_products": "محصولات مرتبط",
+  "feature": "ویژگی"
 }
