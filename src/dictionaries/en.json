@@ -13,5 +13,12 @@
   "home_btn": "Home",
   "display_on_the_wall": "Display on the wall",
   "related_products": "Related Products",
-  "feature": "Feature"
+  "feature": "Feature",
+  "guide_lines_title": "Display Guidelines",
+  "guide_lines": [
+    "Maintain a minimum distance of 2 meters from the wall.",
+    "In addition to the wall, align the camera with the cornice and floor."
+  ],
+  "ok": "OK",
+  "ok_and_never_show_me_again": "OK and Never Show Me Again"
 }
