@@ -5,10 +5,8 @@ import { useContext, useState } from "react";
 
 export default function GuideModalContent({
   onClose,
-  innerButtonRef,
 }: {
   onClose: any;
-  innerButtonRef: any;
 }) {
   const { language } = useContext(GlobalContext);
   const { getContext } = useLanguage();
@@ -23,7 +21,6 @@ export default function GuideModalContent({
       if (isChecked === true) {
         sessionStorage?.setItem("displayModal", "false");
       }
-      innerButtonRef?.current?.click();
       onClose();
     } catch (error) {
       console.error(error);

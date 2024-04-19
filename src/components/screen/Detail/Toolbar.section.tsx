@@ -51,8 +51,7 @@ export default function ToolbarSection({
       {showModal &&
         createPortal(
           <GuideModalContent
-            onClose={() => setShowModal(false)}
-            innerButtonRef
+            onClose={() => {setShowModal(false); innerButtonRef?.current?.click();}}
           />,
           document.body
         )}
