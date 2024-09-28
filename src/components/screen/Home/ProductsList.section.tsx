@@ -15,7 +15,7 @@ export default function ProductsListSection() {
         return <div>Loading...</div>; // or some placeholder/loading state
     }
     return (
-        <div className={'px-20 py-10'}>
+        <div className={'px-10 md:px-20 py-10'}>
             <ToolbarSection/>
 
             <div className="grid grid-cols-1 grid-rows-8 md:grid-cols-4 md:grid-rows-2 gap-14">
