@@ -21,6 +21,15 @@ type productDataType = {
   fa_name: string;
   en_name: string;
   category: string;
+  category_id: number;
   image: string;
   ar_model: string;
 };
+type categoryDataType = {
+  "id": number;
+  "fa_name": string;
+  "en_name": string;
+  "en_description": string;
+  "fa_description": string;
+  "image": string;
+}

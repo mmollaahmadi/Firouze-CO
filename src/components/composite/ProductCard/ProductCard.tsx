@@ -14,7 +14,7 @@ export default function ProductCard({ data }: { data: any }) {
           ? "bg-White text-SuperDarkBlue"
           : "bg-DarkBlue text-White"
       }`}
-      onClick={() => router.push(`/product/${data.id}`)}
+      onClick={() => router.push(`${router.asPath}/product/${data.id}`)}
     >
       <Image
         src={data?.image}

@@ -20,7 +20,7 @@ export default function Home() {
           async
           strategy="afterInteractive"
           type="module"
-          src="https://unpkg.com/@google/model-viewer@^2.1.1/dist/model-viewer.min.js"
+          src="https://unpkg.com/@google/model-viewer@^2.1.1/dist/models-viewer.min.js"
         /> */}
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
       </Head>

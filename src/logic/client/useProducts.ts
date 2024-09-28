@@ -7,7 +7,7 @@ import data from "../../data/static/data.json";
 export default function useProducts() {
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const { products, setProducts } = useContext(GlobalContext);
+  const { products, setProducts, setCategories } = useContext(GlobalContext);
 
   const getAllCountries = async () => {
     try {
@@ -32,7 +32,8 @@ export default function useProducts() {
 
   const readAllProducts = () => {
     try {
-      setProducts(data?.products)
+      setCategories(data?.categories);
+      setProducts(data?.products);
     } catch (error) {
       console.error(error);
     }

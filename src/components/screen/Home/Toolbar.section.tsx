@@ -43,18 +43,18 @@ export default function ToolbarSection() {
       <div className="col-span-3 md:col-start-1 md:col-end-3 flex justify-center items-center">
         <SearchInput value={searchValue} onValueChange={onSearchValueChange} />
       </div>
-      <div className="col-span-2 md:col-span-1 md:col-end-7 flex justify-center items-center">
-        <Select
-          value={filterValue}
-          onValueChange={(value) => onFilterValueChange(value)}
-          options={CATEGORIES?.map((f) => {
-            return {
-              value: f.value,
-              label: language === "fa" ? f.fa_label : f.en_label,
-            };
-          })}
-        />
-      </div>
+      {/*<div className="col-span-2 md:col-span-1 md:col-end-7 flex justify-center items-center">*/}
+      {/*  <Select*/}
+      {/*    value={filterValue}*/}
+      {/*    onValueChange={(value) => onFilterValueChange(value)}*/}
+      {/*    options={CATEGORIES?.map((f) => {*/}
+      {/*      return {*/}
+      {/*        value: f.value,*/}
+      {/*        label: language === "fa" ? f.fa_label : f.en_label,*/}
+      {/*      };*/}
+      {/*    })}*/}
+      {/*  />*/}
+      {/*</div>*/}
     </div>
   );
 }

@@ -11,6 +11,7 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps }: AppProps) {
   const [colorMode, setColorMode] = useState<colorModeType>("light");
   const [products, setProducts] = useState<productDataType[]>([]);
+  const [categories, setCategories] = useState<categoryDataType[]>([]);
   const [filteredProducts, setFilteredCountries] = useState<productDataType[]>(
     []
   );
@@ -37,6 +38,8 @@ export default function App({ Component, pageProps }: AppProps) {
       setSearchValue,
       language,
       setLanguage,
+      categories,
+      setCategories,
     }),
     [
       colorMode,
@@ -53,6 +56,8 @@ export default function App({ Component, pageProps }: AppProps) {
       setSearchValue,
       language,
       setLanguage,
+      categories,
+      setCategories,
     ]
   );
   return (

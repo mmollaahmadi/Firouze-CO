@@ -16,5 +16,7 @@ export const initialState = {
   setSearchValue: (key: string) => {},
   language: "fa" as "fa" | "en",
   setLanguage: (language: "fa" | "en") => {},
+  categories: [] as categoryDataType[],
+  setCategories: (categories: categoryDataType[]) => {},
 };
 export const GlobalContext = createContext(initialState);

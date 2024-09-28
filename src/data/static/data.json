@@ -1,640 +1,906 @@
 {
-  "products":[
+  "products": [
     {
       "id": 1,
-      "category": "category1",
-      "image": "/model/1/1.jpg",
-      "ar_model": "/model/1/1.glb",
-      "borders": [
-        2,
-        3
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ESPINA 2015",
+      "fa_name": "ESPINA 2015",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 1",
-      "fa_name": "محصول 1"
+      "image": "/models/1/1.jpg",
+      "ar_model": "/models/1/1.glb",
+      "borders": []
     },
     {
       "id": 2,
-      "category": "category2",
-      "image": "/model/2/2.jpg",
-      "ar_model": "/model/2/2.glb",
-      "borders": [
-        3,
-        4
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "IRON MICROMETALL",
+      "fa_name": "IRON MICROMETALL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 2",
-      "fa_name": "محصول 2"
+      "image": "/models/2/2.jpg",
+      "ar_model": "/models/2/2.glb",
+      "borders": []
     },
     {
       "id": 3,
-      "category": "category3",
-      "image": "/model/3/3.jpg",
-      "ar_model": "/model/3/3.glb",
-      "borders": [
-        4,
-        5
-      ],
-      "en_name": "Product 3",
-      "fa_name": "محصول 3"
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "RABEZ 6016",
+      "fa_name": "RABEZ 6016",
+      "features": ["سطح بدون درز", "اجرا سریع", "دوام بالا", "قابلیت شستشو"],
+      "image": "/models/3/3.jpg",
+      "ar_model": "/models/3/3.glb",
+      "borders": []
     },
     {
       "id": 4,
-      "category": "category4",
-      "image": "/model/4/4.jpg",
-      "ar_model": "/model/4/4.glb",
-      "borders": [
-        5,
-        6
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ISLA 3014",
+      "fa_name": "ISLA 3014",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 4",
-      "fa_name": "محصول 4"
+      "image": "/models/4/4.jpg",
+      "ar_model": "/models/4/4.glb",
+      "borders": []
     },
     {
       "id": 5,
-      "category": "category5",
-      "image": "/model/5/5.jpg",
-      "ar_model": "/model/5/5.glb",
-      "borders": [
-        6,
-        7
-      ],
-      "en_name": "Product 5",
-      "fa_name": "محصول 5"
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 5014",
+      "fa_name": "VIENTO 5014",
+      "features": ["سطح بدون درز", "اجرا سریع", "دوام بالا", "قابلیت شستشو"],
+      "image": "/models/5/5.jpg",
+      "ar_model": "/models/5/5.glb",
+      "borders": []
     },
     {
       "id": 6,
-      "category": "category1",
-      "image": "/model/6/6.jpg",
-      "ar_model": "/model/6/6.glb",
-      "borders": [
-        7,
-        8
-      ],
-      "en_name": "Product 6",
-      "fa_name": "محصول 6"
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "ROCK",
+      "fa_name": "ROCK",
+      "features": ["سطح بدون درز", "اجرا سریع", "دوام بالا", "قابلیت شستشو"],
+      "image": "/models/6/6.jpg",
+      "ar_model": "/models/6/6.glb",
+      "borders": []
     },
     {
       "id": 7,
-      "category": "category2",
-      "image": "/model/7/7.jpg",
-      "ar_model": "/model/7/7.glb",
-      "borders": [
-        8,
-        9
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "PETAL",
+      "fa_name": "PETAL",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 7",
-      "fa_name": "محصول 7"
+      "image": "/models/7/7.jpg",
+      "ar_model": "/models/7/7.glb",
+      "borders": []
     },
     {
       "id": 8,
-      "category": "category3",
-      "image": "/model/8/8.jpg",
-      "ar_model": "/model/8/8.glb",
-      "borders": [
-        9,
-        10
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "GRAFPHITY",
+      "fa_name": "GRAFPHITY",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 8",
-      "fa_name": "محصول 8"
+      "image": "/models/8/8.jpg",
+      "ar_model": "/models/8/8.glb",
+      "borders": []
     },
     {
       "id": 9,
-      "category": "category4",
-      "image": "/model/9/9.jpg",
-      "ar_model": "/model/9/9.glb",
-      "borders": [
-        10,
-        11
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "MINIMAL 1011",
+      "fa_name": "MINIMAL 1011",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 9",
-      "fa_name": "محصول 9"
+      "image": "/models/9/9.jpg",
+      "ar_model": "/models/9/9.glb",
+      "borders": []
     },
     {
       "id": 10,
-      "category": "category5",
-      "image": "/model/10/10.jpg",
-      "ar_model": "/model/10/10.glb",
-      "borders": [
-        11,
-        12
-      ],
-      "en_name": "Product 10",
-      "fa_name": "محصول 10"
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 5001",
+      "fa_name": "VIENTO 5001",
+      "features": ["سطح بدون درز", "اجرا سریع", "دوام بالا", "قابلیت شستشو"],
+      "image": "/models/10/10.jpg",
+      "ar_model": "/models/10/10.glb",
+      "borders": []
     },
     {
       "id": 11,
-      "category": "category1",
-      "image": "/model/11/11.jpg",
-      "ar_model": "/model/11/11.glb",
-      "borders": [
-        12,
-        13
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ISLA 3035",
+      "fa_name": "ISLA 3035",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 11",
-      "fa_name": "محصول 11"
+      "image": "/models/11/11.jpg",
+      "ar_model": "/models/11/11.glb",
+      "borders": []
     },
     {
       "id": 12,
-      "category": "category2",
-      "image": "/model/12/12.jpg",
-      "ar_model": "/model/12/12.glb",
-      "borders": [
-        13,
-        14
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "RONIC 4002",
+      "fa_name": "RONIC 4002",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 12",
-      "fa_name": "محصول 12"
+      "image": "/models/12/12.jpg",
+      "ar_model": "/models/12/12.glb",
+      "borders": []
     },
     {
       "id": 13,
-      "category": "category3",
-      "image": "/model/13/13.jpg",
-      "ar_model": "/model/13/13.glb",
-      "borders": [
-        14,
-        15
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ESPINA 2010",
+      "fa_name": "ESPINA 2010",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 13",
-      "fa_name": "محصول 13"
+      "image": "/models/13/13.jpg",
+      "ar_model": "/models/13/13.glb",
+      "borders": []
     },
     {
       "id": 14,
-      "category": "category4",
-      "image": "/model/14/14.jpg",
-      "ar_model": "/model/14/14.glb",
-      "borders": [
-        15,
-        16
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "DECORATIVE 8003",
+      "fa_name": "DECORATIVE 8003",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 14",
-      "fa_name": "محصول 14"
-    },
-    {
-      "id": 15,
-      "category": "category5",
-      "image": "/model/15/15.jpg",
-      "ar_model": "/model/15/15.glb",
-      "borders": [
-        16,
-        17
-      ],
-      "en_name": "Product 15",
-      "fa_name": "محصول 15"
-    },
-    {
-      "id": 16,
-      "category": "category1",
-      "image": "/model/16/16.jpg",
-      "ar_model": "/model/16/16.glb",
-      "borders": [
-        17,
-        18
-      ],
-      "en_name": "Product 16",
-      "fa_name": "محصول 16"
+      "image": "/models/14/14.jpg",
+      "ar_model": "/models/14/14.glb",
+      "borders": []
     },
     {
       "id": 17,
-      "category": "category2",
-      "image": "/model/17/17.jpg",
-      "ar_model": "/model/17/17.glb",
-      "borders": [
-        18,
-        19
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "TWISTING",
+      "fa_name": "TWISTING",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 17",
-      "fa_name": "محصول 17"
+      "image": "/models/17/17.jpg",
+      "ar_model": "/models/17/17.glb",
+      "borders": []
     },
     {
       "id": 18,
-      "category": "category3",
-      "image": "/model/18/18.jpg",
-      "ar_model": "/model/18/18.glb",
-      "borders": [
-        19,
-        20
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ISLA 3005",
+      "fa_name": "ISLA 3005",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 18",
-      "fa_name": "محصول 18"
-    },
-    {
-      "id": 19,
-      "category": "category4",
-      "image": "/model/19/19.jpg",
-      "ar_model": "/model/19/19.glb",
-      "borders": [
-        20,
-        21
-      ],
-      "en_name": "Product 19",
-      "fa_name": "محصول 19"
+      "image": "/models/18/18.jpg",
+      "ar_model": "/models/18/18.glb",
+      "borders": []
     },
     {
       "id": 20,
-      "category": "category5",
-      "image": "/model/20/20.jpg",
-      "ar_model": "/model/20/20.glb",
-      "borders": [
-        21,
-        22
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ESPINA 2009",
+      "fa_name": "ESPINA 2009",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 20",
-      "fa_name": "محصول 20"
+      "image": "/models/20/20.jpg",
+      "ar_model": "/models/20/20.glb",
+      "borders": []
     },
     {
       "id": 21,
-      "category": "category1",
-      "image": "/model/21/21.jpg",
-      "ar_model": "/model/21/21.glb",
-      "borders": [
-        2,
-        3
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ISLA 2007",
+      "fa_name": "ISLA 2007",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 21",
-      "fa_name": "محصول 21"
+      "image": "/models/21/21.jpg",
+      "ar_model": "/models/21/21.glb",
+      "borders": []
     },
     {
       "id": 22,
-      "category": "category2",
-      "image": "/model/22/22.jpg",
-      "ar_model": "/model/22/22.glb",
-      "borders": [
-        3,
-        4
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "ESPINA 2005",
+      "fa_name": "ESPINA 2005",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 22",
-      "fa_name": "محصول 22"
+      "image": "/models/22/22.jpg",
+      "ar_model": "/models/22/22.glb",
+      "borders": []
     },
     {
       "id": 23,
-      "category": "category3",
-      "image": "/model/23/23.jpg",
-      "ar_model": "/model/23/23.glb",
-      "borders": [
-        4,
-        5
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 6001",
+      "fa_name": "VIENTO 6001",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 23",
-      "fa_name": "محصول 23"
+      "image": "/models/23/23.jpg",
+      "ar_model": "/models/23/23.glb",
+      "borders": []
     },
     {
       "id": 24,
-      "category": "category4",
-      "image": "/model/24/24.jpg",
-      "ar_model": "/model/24/24.glb",
-      "borders": [
-        5,
-        6
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "GRAFPHITY 1020",
+      "fa_name": "GRAFPHITY 1020",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 24",
-      "fa_name": "محصول 24"
+      "image": "/models/24/24.jpg",
+      "ar_model": "/models/24/24.glb",
+      "borders": []
     },
     {
       "id": 25,
-      "category": "category5",
-      "image": "/model/25/25.jpg",
-      "ar_model": "/model/25/25.glb",
-      "borders": [
-        6,
-        7
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "ROCK FORMATION",
+      "fa_name": "ROCK FORMATION",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 25",
-      "fa_name": "محصول 25"
+      "image": "/models/25/25.jpg",
+      "ar_model": "/models/25/25.glb",
+      "borders": []
     },
     {
       "id": 26,
-      "category": "category1",
-      "image": "/model/26/26.jpg",
-      "ar_model": "/model/26/26.glb",
-      "borders": [
-        7,
-        8
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "IRON MICROMETAL GOLD",
+      "fa_name": "IRON MICROMETAL GOLD",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 26",
-      "fa_name": "محصول 26"
+      "image": "/models/26/26.jpg",
+      "ar_model": "/models/26/26.glb",
+      "borders": []
     },
     {
       "id": 27,
-      "category": "category2",
-      "image": "/model/27/27.jpg",
-      "ar_model": "/model/27/27.glb",
-      "borders": [
-        8,
-        9
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 7003",
+      "fa_name": "VIENTO 7003",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 27",
-      "fa_name": "محصول 27"
+      "image": "/models/27/27.jpg",
+      "ar_model": "/models/27/27.glb",
+      "borders": []
     },
     {
       "id": 28,
-      "category": "category3",
-      "image": "/model/28/28.jpg",
-      "ar_model": "/model/28/28.glb",
-      "borders": [
-        9,
-        10
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "RABEZ 6030",
+      "fa_name": "RABEZ 6030",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 28",
-      "fa_name": "محصول 28"
+      "image": "/models/28/28.jpg",
+      "ar_model": "/models/28/28.glb",
+      "borders": []
     },
     {
       "id": 29,
-      "category": "category4",
-      "image": "/model/29/29.jpg",
-      "ar_model": "/model/29/29.glb",
-      "borders": [
-        10,
-        11
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "MINIMAL 2005",
+      "fa_name": "MINIMAL 2005",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 29",
-      "fa_name": "محصول 29"
+      "image": "/models/29/29.jpg",
+      "ar_model": "/models/29/29.glb",
+      "borders": []
     },
     {
       "id": 30,
-      "category": "category5",
-      "image": "/model/30/30.jpg",
-      "ar_model": "/model/30/30.glb",
-      "borders": [
-        11,
-        12
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "TWISTING 3035",
+      "fa_name": "TWISTING 3035",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 30",
-      "fa_name": "محصول 30"
+      "image": "/models/30/30.jpg",
+      "ar_model": "/models/30/30.glb",
+      "borders": []
     },
     {
       "id": 31,
-      "category": "category1",
-      "image": "/model/31/31.jpg",
-      "ar_model": "/model/31/31.glb",
-      "borders": [
-        12,
-        13
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "STONE PATH",
+      "fa_name": "STONE PATH",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 31",
-      "fa_name": "محصول 31"
+      "image": "/models/31/31.jpg",
+      "ar_model": "/models/31/31.glb",
+      "borders": []
     },
     {
       "id": 32,
-      "category": "category2",
-      "image": "/model/32/32.jpg",
-      "ar_model": "/model/32/32.glb",
-      "borders": [
-        13,
-        14
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "CLASSIC 5010",
+      "fa_name": "CLASSIC 5010",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 32",
-      "fa_name": "محصول 32"
+      "image": "/models/32/32.jpg",
+      "ar_model": "/models/32/32.glb",
+      "borders": []
     },
     {
       "id": 33,
-      "category": "category3",
-      "image": "/model/33/33.jpg",
-      "ar_model": "/model/33/33.glb",
-      "borders": [
-        14,
-        15
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 8004",
+      "fa_name": "VIENTO 8004",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 33",
-      "fa_name": "محصول 33"
+      "image": "/models/33/33.jpg",
+      "ar_model": "/models/33/33.glb",
+      "borders": []
     },
     {
       "id": 34,
-      "category": "category4",
-      "image": "/model/34/34.jpg",
-      "ar_model": "/model/34/34.glb",
-      "borders": [
-        15,
-        16
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "BRONZE MICROMETAL",
+      "fa_name": "BRONZE MICROMETAL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 34",
-      "fa_name": "محصول 34"
+      "image": "/models/34/34.jpg",
+      "ar_model": "/models/34/34.glb",
+      "borders": []
     },
     {
       "id": 35,
-      "category": "category5",
-      "image": "/model/35/35.jpg",
-      "ar_model": "/model/35/35.glb",
-      "borders": [
-        16,
-        17
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "MOUNTAIN RIDGE",
+      "fa_name": "MOUNTAIN RIDGE",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 35",
-      "fa_name": "محصول 35"
+      "image": "/models/35/35.jpg",
+      "ar_model": "/models/35/35.glb",
+      "borders": []
     },
     {
       "id": 36,
-      "category": "category1",
-      "image": "/model/36/36.jpg",
-      "ar_model": "/model/36/36.glb",
-      "borders": [
-        17,
-        18
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "URBAN 4007",
+      "fa_name": "URBAN 4007",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 36",
-      "fa_name": "محصول 36"
+      "image": "/models/36/36.jpg",
+      "ar_model": "/models/36/36.glb",
+      "borders": []
     },
     {
       "id": 37,
-      "category": "category2",
-      "image": "/model/37/37.jpg",
-      "ar_model": "/model/37/37.glb",
-      "borders": [
-        18,
-        19
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "COPPER MICROMETAL",
+      "fa_name": "COPPER MICROMETAL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 37",
-      "fa_name": "محصول 37"
+      "image": "/models/37/37.jpg",
+      "ar_model": "/models/37/37.glb",
+      "borders": []
     },
     {
       "id": 38,
-      "category": "category3",
-      "image": "/model/38/38.jpg",
-      "ar_model": "/model/38/38.glb",
-      "borders": [
-        19,
-        20
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 9002",
+      "fa_name": "VIENTO 9002",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 38",
-      "fa_name": "محصول 38"
+      "image": "/models/38/38.jpg",
+      "ar_model": "/models/38/38.glb",
+      "borders": []
     },
     {
       "id": 39,
-      "category": "category4",
-      "image": "/model/39/39.jpg",
-      "ar_model": "/model/39/39.glb",
-      "borders": [
-        20,
-        21
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "ROCK EDGE",
+      "fa_name": "ROCK EDGE",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 39",
-      "fa_name": "محصول 39"
+      "image": "/models/39/39.jpg",
+      "ar_model": "/models/39/39.glb",
+      "borders": []
     },
     {
       "id": 40,
-      "category": "category5",
-      "image": "/model/40/40.jpg",
-      "ar_model": "/model/40/40.glb",
-      "borders": [
-        21,
-        22
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "MODERN 3050",
+      "fa_name": "MODERN 3050",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 40",
-      "fa_name": "محصول 40"
+      "image": "/models/40/40.jpg",
+      "ar_model": "/models/40/40.glb",
+      "borders": []
     },
     {
       "id": 41,
-      "category": "category1",
-      "image": "/model/41/41.jpg",
-      "ar_model": "/model/41/41.glb",
-      "borders": [
-        22,
-        23
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "MODERN 3060",
+      "fa_name": "MODERN 3060",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 41",
-      "fa_name": "محصول 41"
+      "image": "/models/41/41.jpg",
+      "ar_model": "/models/41/41.glb",
+      "borders": []
     },
     {
       "id": 42,
-      "category": "category2",
-      "image": "/model/42/42.jpg",
-      "ar_model": "/model/42/42.glb",
-      "borders": [
-        23,
-        24
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 9010",
+      "fa_name": "VIENTO 9010",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 42",
-      "fa_name": "محصول 42"
+      "image": "/models/42/42.jpg",
+      "ar_model": "/models/42/42.glb",
+      "borders": []
     },
     {
       "id": 43,
-      "category": "category3",
-      "image": "/model/43/43.jpg",
-      "ar_model": "/model/43/43.glb",
-      "borders": [
-        24,
-        25
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "SILVER MICROMETAL",
+      "fa_name": "SILVER MICROMETAL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 43",
-      "fa_name": "محصول 43"
+      "image": "/models/43/43.jpg",
+      "ar_model": "/models/43/43.glb",
+      "borders": []
     },
     {
       "id": 44,
-      "category": "category4",
-      "image": "/model/44/44.jpg",
-      "ar_model": "/model/44/44.glb",
-      "borders": [
-        25,
-        26
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "STONEWALL",
+      "fa_name": "STONEWALL",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 44",
-      "fa_name": "محصول 44"
+      "image": "/models/44/44.jpg",
+      "ar_model": "/models/44/44.glb",
+      "borders": []
     },
     {
       "id": 45,
-      "category": "category5",
-      "image": "/model/45/45.jpg",
-      "ar_model": "/model/45/45.glb",
-      "borders": [
-        26,
-        27
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "URBAN 5008",
+      "fa_name": "URBAN 5008",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 45",
-      "fa_name": "محصول 45"
+      "image": "/models/45/45.jpg",
+      "ar_model": "/models/45/45.glb",
+      "borders": []
     },
     {
       "id": 46,
-      "category": "category1",
-      "image": "/model/46/46.jpg",
-      "ar_model": "/model/46/46.glb",
-      "borders": [
-        27,
-        28
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 8015",
+      "fa_name": "VIENTO 8015",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 46",
-      "fa_name": "محصول 46"
+      "image": "/models/46/46.jpg",
+      "ar_model": "/models/46/46.glb",
+      "borders": []
     },
     {
       "id": 47,
-      "category": "category2",
-      "image": "/model/47/47.jpg",
-      "ar_model": "/model/47/47.glb",
-      "borders": [
-        28,
-        29
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "GOLD MICROMETAL",
+      "fa_name": "GOLD MICROMETAL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 47",
-      "fa_name": "محصول 47"
+      "image": "/models/47/47.jpg",
+      "ar_model": "/models/47/47.glb",
+      "borders": []
     },
     {
       "id": 48,
-      "category": "category3",
-      "image": "/model/48/48.jpg",
-      "ar_model": "/model/48/48.glb",
-      "borders": [
-        29,
-        30
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "STONE EDGE",
+      "fa_name": "STONE EDGE",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 48",
-      "fa_name": "محصول 48"
+      "image": "/models/48/48.jpg",
+      "ar_model": "/models/48/48.glb",
+      "borders": []
     },
     {
       "id": 49,
-      "category": "category4",
-      "image": "/model/49/49.jpg",
-      "ar_model": "/model/49/49.glb",
-      "borders": [
-        30,
-        31
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "CLASSIC 6010",
+      "fa_name": "CLASSIC 6010",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 49",
-      "fa_name": "محصول 49"
+      "image": "/models/49/49.jpg",
+      "ar_model": "/models/49/49.glb",
+      "borders": []
     },
     {
       "id": 50,
-      "category": "category5",
-      "image": "/model/50/50.jpg",
-      "ar_model": "/model/50/50.glb",
-      "borders": [
-        31,
-        32
+      "category": "وینتو",
+      "category_id": 3,
+      "en_name": "VIENTO 8020",
+      "fa_name": "VIENTO 8020",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 50",
-      "fa_name": "محصول 50"
+      "image": "/models/50/50.jpg",
+      "ar_model": "/models/50/50.glb",
+      "borders": []
     },
     {
       "id": 51,
-      "category": "category1",
-      "image": "/model/51/51.jpg",
-      "ar_model": "/model/51/51.glb",
-      "borders": [
-        32,
-        33
+      "category": "میکرومتال",
+      "category_id": 2,
+      "en_name": "BRONZE MICROMETAL",
+      "fa_name": "BRONZE MICROMETAL",
+      "features": [
+        "قابل اجرا با فلزات",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 51",
-      "fa_name": "محصول 51"
+      "image": "/models/51/51.jpg",
+      "ar_model": "/models/51/51.glb",
+      "borders": []
     },
     {
       "id": 52,
-      "category": "category2",
-      "image": "/model/52/52.jpg",
-      "ar_model": "/model/52/52.glb",
-      "borders": [
-        33,
-        34
+      "category": "صخره ایی",
+      "category_id": 4,
+      "en_name": "STONE RIDGE",
+      "fa_name": "STONE RIDGE",
+      "features": [
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 52",
-      "fa_name": "محصول 52"
+      "image": "/models/52/52.jpg",
+      "ar_model": "/models/52/52.glb",
+      "borders": []
     },
     {
       "id": 53,
-      "category": "category3",
-      "image": "/model/53/53.jpg",
-      "ar_model": "/model/53/53.glb",
-      "borders": [
-        34,
-        35
+      "category": "میکروسمنت",
+      "category_id": 1,
+      "en_name": "INDUSTRIAL 7020",
+      "fa_name": "INDUSTRIAL 7020",
+      "features": [
+        "رنگ دلخواه",
+        "سطح بدون درز",
+        "اجرا سریع",
+        "دوام بالا",
+        "قابلیت شستشو"
       ],
-      "en_name": "Product 53",
-      "fa_name": "محصول 53"
+      "image": "/models/53/53.jpg",
+      "ar_model": "/models/53/53.glb",
+      "borders": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "fa_name": "میکروسمنت",
+      "fa_description": "اجرای میکروسمنت فیروزه، فراتر از پوشش",
+      "en_name": "Microcement",
+      "en_description": "Microcement is a modern and popular decorative coating that adds flexibility, resistance, and beauty to interior and exterior surfaces and is used in homes, commercial offices, restaurants, hotels, and galleries.",
+      "image": "/images/categories/1.webp"
+    },
+    {
+      "id": 2,
+      "fa_name": "تِرازو",
+      "fa_description": "زیبا، مقاوم و بادوام",
+      "en_name": "Terrazzo",
+      "en_description": "Terrazzo is a decorative covering consisting of small pieces of marble, granite, quartz, glass, and other materials, made using adhesive materials like cement or resin, resulting in a beautiful and resistant surface.",
+      "image": "/images/categories/2.webp"
+    },
+    {
+      "id": 3,
+      "fa_name": "میکرومتال",
+      "fa_description": "پوشش‌های فلزی و متالیک با ظاهری براق و رنگ‌های فلزات",
+      "en_name": "Micrometal",
+      "en_description": "Metal and metallic coatings with a shiny appearance and metallic colors, including iron, aluminum, brass, bronze, and copper, give spaces a luxurious and special look. It can be applied on walls, stairs, furniture, and cabinets, making it an excellent choice for decorating spaces.",
+      "image": "/images/categories/3.webp"
+    },
+    {
+      "id": 4,
+      "fa_name": "استوکو",
+      "fa_description": "پوشش استوکو، لوکس، براق و شیک",
+      "en_name": "Stucco",
+      "en_description": "Stucco is a decorative and resin-based coating that creates a polished and smooth surface, giving a luxurious and beautiful appearance to the space. It is highly resistant and durable.",
+      "image": "/images/categories/4.webp"
+    },
+    {
+      "id": 5,
+      "fa_name": "وینتو",
+      "fa_description": "وینتو، به شکوه آب و درخشش ساحل",
+      "en_name": "Viento",
+      "en_description": "Viento is a decorative sand coating made with a combination of quartz, water-based resins, and pigments, offering a beautiful and modern appearance to surfaces.",
+      "image": "/images/categories/5.webp"
+    },
+    {
+      "id": 6,
+      "fa_name": "اکسید آهن",
+      "fa_description": "پوششی با ظاهر زنگ زده با مقاومت و دوام بسیار بالا",
+      "en_name": "Iron Oxide",
+      "en_description": "Iron oxide is a decorative material with strong resistance to wear, heat, and humidity, offering a striking and durable surface finish.",
+      "image": "/images/categories/6.webp"
+    },
+    {
+      "id": 7,
+      "fa_name": "صخره‌ای",
+      "fa_description": "جسارت و شکوه طبیعت، یادآوری شکوه کاخ‌های گذشته",
+      "en_name": "Rock",
+      "en_description": "Firouze's rock material consists of gypsum, resin polymers, and additives. It is used to create intricate designs on walls and ceilings, offering a flexible material for molding various shapes.",
+      "image": "/images/categories/7.webp"
+    },
+    {
+      "id": 8,
+      "fa_name": "کفپوش و پوشش اپوکسی",
+      "fa_description": "یکپارچه، بدون درز و بادوام",
+      "en_name": "Epoxy Flooring and Coating",
+      "en_description": "A durable flooring solution, epoxy is created by combining epoxy resin and hardeners to form a solid, monolithic layer on surfaces, suitable for environments needing strong, seamless floors.",
+      "image": "/images/categories/8.webp"
+    },
+    {
+      "id": 9,
+      "fa_name": "کفپوش و پوشش پلی‌یورتان",
+      "fa_description": "کفپوش دو جزئی با چسبندگی عالی، سختی بالا، خواص ضد باکتریایی و مقاومت شیمیایی و ضربه‌ای عالی.",
+      "en_name": "Polyurethane Flooring and Coating",
+      "en_description": "Known for its high adhesion and resistance to chemicals, polyurethane flooring is ideal for sports halls and areas that face extreme conditions, offering durability and antibacterial properties.",
+      "image": "/images/categories/9.webp"
+    },
+    {
+      "id": 10,
+      "fa_name": "کارپیتون",
+      "fa_description": "کارپیتون (استون کارپت) یا فرش سنگی، یک کفپوش جذاب و متمایز",
+      "en_name": "Carpiton",
+      "en_description": "Stone carpet flooring, also known as Carpiton, is a unique and visually appealing option for flooring with a natural, distinct look.",
+      "image": "/images/categories/10.webp"
+    },
+    {
+      "id": 11,
+      "fa_name": "دکتون",
+      "fa_description": "دکتون یک پوشش دیواری منحصربه‌فرد",
+      "en_name": "Dectone",
+      "en_description": "Dectone is a specialized wall covering known for its unique texture and design, offering a distinctive look for interiors.",
+      "image": "/images/categories/11.webp"
     }
   ]
 }

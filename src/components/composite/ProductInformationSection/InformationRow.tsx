@@ -14,7 +14,7 @@ export default function InformationRow({
       <p
         className={`${language === "fa" ? "mr-1" : "ml-1"} text-sm lg:text-md`}
       >
-        {value}
+        {Array?.isArray(value) ? value.map(v => (<p>{v}</p>)) : value}
       </p>
     </div>
   );
