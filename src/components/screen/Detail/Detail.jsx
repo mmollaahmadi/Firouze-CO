@@ -55,7 +55,7 @@ export default function Detail() {
                             poster={product?.image ?? ""}
                             shadow-intensity="1"
                             camera-controls
-                            touch-action="pan-y"
+                            touch-action="none"
                             alt="AR Model"
                             style={{
                                 width: "100%",
