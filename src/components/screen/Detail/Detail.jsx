@@ -23,7 +23,6 @@ export default function Detail() {
     useEffect(() => {
         function updateCountryData() {
             let foundedCountry = findCountryData(id);
-            console.log("foundedCountry", foundedCountry);
             setProduct(foundedCountry);
         }
 
@@ -55,6 +54,7 @@ export default function Detail() {
                             poster={product?.image ?? ""}
                             shadow-intensity="1"
                             camera-controls
+                            gesture-controls="auto"
                             touch-action="pan-y"
                             alt="AR Model"
                             style={{
