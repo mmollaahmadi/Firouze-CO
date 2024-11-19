@@ -1,6 +1,4 @@
 import React from "react";
-import ToolbarSection from "./Toolbar.section";
-import ProductsListSection from "./ProductsList.section";
 import useProducts from "@/logic/client/useProducts";
 import Loading from "@/components/atomic/Loading";
 import ErrorMessage from "@/components/atomic/ErrorMessage";
