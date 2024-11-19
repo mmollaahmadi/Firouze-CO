@@ -5,6 +5,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import { Nunito_Sans } from "next/font/google";
 import { useMemo, useState } from "react";
 import { GlobalContext } from "@/context";
+import ScrollToTop from "@/components/atomic/ScrollToTop";
 const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
 config.autoAddCss = false;
 
@@ -68,6 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
           direction: ${language === "fa" ? "rtl" : "ltr"};
         }
       `}</style>
+        <ScrollToTop />
       <Component {...pageProps} />
     </GlobalContext.Provider>
   );
