@@ -755,8 +755,8 @@
       "id": 51,
       "category": "میکروسمنت",
       "category_id": 1,
-      "en_name": "Concrete 8021",
-      "fa_name": "Concrete 8021",
+      "en_name": "Cotton",
+      "fa_name": "Cotton",
       "features": [
         "قابل اجرا با فلزات",
         "سطح بدون درز",
@@ -1043,17 +1043,6 @@
       "features": [],
       "image": "/models/72/72.jpg",
       "ar_model": "/models/72/72.glb",
-      "borders": []
-    },
-    {
-      "id": 68,
-      "category": "میکروسمنت",
-      "category_id": 1,
-      "en_name": "Cotton",
-      "fa_name": "Cotton",
-      "features": [],
-      "image": "/models/68/68.jpg",
-      "ar_model": "/models/68/68.glb",
       "borders": []
     },
     {
